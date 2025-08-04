@@ -1,0 +1,176 @@
+date;home_team;away_team;home_goals;away_goals;home_xG;away_xG;home_xpts;away_xpts;year;match_index
+21.02.2015 15:00;Aston Villa;Arsenal;1;2;0.234004;2.08054;0.3713;1.241;2014;2015-02-21_Aston Villa_vs_Arsenal
+24.05.2015 15:00;Aston Villa;Tottenham;0;1;0.654751;1.39049;1.2611;1.9828;2014;2015-05-24_Aston Villa_vs_Tottenham
+10.01.2015 15:00;Everton;West Ham;1;1;0.95041;0.731228;0.8880999999999999;0.6996;2014;2015-01-10_Everton_vs_West Ham
+15.03.2015 16:00;Everton;Tottenham;3;0;2.25807;0.206431;2.4509;0.5298;2014;2015-03-15_Everton_vs_Tottenham
+27.09.2014 15:00;Southampton;West Ham;2;1;2.34463;1.27452;2.6530000000000005;2.0207;2014;2014-09-27_Southampton_vs_West Ham
+01.01.2015 15:00;Southampton;Everton;2;0;2.41442;0.957698;2.4638;0.6689;2014;2015-01-01_Southampton_vs_Everton
+04.10.2014 15:00;Leicester;Newcastle;2;2;1.57773;1.18603;1.8726;1.076;2014;2014-10-04_Leicester_vs_Newcastle
+01.11.2014 15:00;Leicester;Southampton;0;1;1.41001;1.90484;2.1103;2.6974;2014;2014-11-01_Leicester_vs_Southampton
+07.02.2015 15:00;Leicester;Southampton;0;1;0.7797;0.963892;1.1383;1.2779;2014;2015-02-07_Leicester_vs_Southampton
+16.08.2014 15:00;West Brom;Everton;2;2;1.68343;0.613273;2.0358;0.7617;2014;2014-08-16_West Brom_vs_Everton
+26.12.2014 15:00;West Brom;Southampton;1;3;2.64442;1.30288;1.7505;2.1896;2014;2014-12-26_West Brom_vs_Southampton
+10.01.2015 15:00;West Brom;Aston Villa;1;0;0.784159;0.606149;1.7271;0.2633;2014;2015-01-10_West Brom_vs_Aston Villa
+28.02.2015 15:00;West Brom;Aston Villa;1;0;1.08916;0.773437;1.8493;1.1585;2014;2015-02-28_West Brom_vs_Aston Villa
+25.04.2015 15:00;West Brom;West Ham;0;0;0.507754;0.824309;0.5573;0.3728;2014;2015-04-25_West Brom_vs_West Ham
+26.12.2014 15:00;Sunderland;Southampton;1;3;1.35551;1.30288;1.8049;2.1896;2014;2014-12-26_Sunderland_vs_Southampton
+31.01.2015 15:00;Sunderland;West Ham;2;0;1.89994;0.383092;1.8754;0.2304999999999999;2014;2015-01-31_Sunderland_vs_West Ham
+13.12.2014 15:00;Crystal Palace;West Ham;1;1;0.498092;0.870324;0.8217;0.9134;2014;2014-12-13_Crystal Palace_vs_West Ham
+16.08.2014 15:00;West Ham;Aston Villa;0;1;1.8531;0.909774;2.0216000000000003;1.8322;2014;2014-08-16_West Ham_vs_Aston Villa
+29.11.2014 15:00;West Ham;Stoke;1;0;1.09981;0.875424;2.1861;0.6562;2014;2014-11-29_West Ham_vs_Stoke
+06.12.2014 15:00;Tottenham;West Brom;0;0;0.958788;1.06151;1.1708999999999998;1.8773;2014;2014-12-06_Tottenham_vs_West Brom
+29.11.2014 15:00;Swansea;Aston Villa;1;1;1.4626;1.0873;1.2658;0.5442;2014;2014-11-29_Swansea_vs_Aston Villa
+04.04.2015 15:00;Swansea;Aston Villa;3;1;1.49943;0.311787;1.8327;0.244;2014;2015-04-04_Swansea_vs_Aston Villa
+31.01.2015 15:00;Stoke;Leicester;3;1;0.782569;0.380882;0.9921;0.3053;2014;2015-01-31_Stoke_vs_Leicester
+28.02.2015 15:00;Stoke;Aston Villa;1;0;0.895577;0.773437;1.8288;1.1585;2014;2015-02-28_Stoke_vs_Aston Villa
+04.03.2015 19:45;Newcastle;Chelsea;0;1;1.19246;2.38358;0.9255;2.0389;2014;2015-03-04_Newcastle_vs_Chelsea
+21.03.2015 15:00;Newcastle;Crystal Palace;1;2;1.0068;2.14974;1.5558;1.4301;2014;2015-03-21_Newcastle_vs_Crystal Palace
+24.05.2015 15:00;Newcastle;Southampton;2;0;1.64216;0.775853;2.3586000000000005;0.2825999999999999;2014;2015-05-24_Newcastle_vs_Southampton
+06.12.2014 15:00;Liverpool;West Brom;0;0;0.663875;1.06151;1.7084;1.8773;2014;2014-12-06_Liverpool_vs_West Brom
+02.05.2015 15:00;Liverpool;Southampton;2;1;2.28745;0.906357;2.7097;0.5004;2014;2015-05-02_Liverpool_vs_Southampton
+22.11.2014 15:00;Man City;West Ham;2;1;2.26312;1.11958;2.2619;0.8150999999999999;2014;2014-11-22_Man City_vs_West Ham
+07.02.2015 15:00;Man City;Sunderland;1;1;0.992526;0.143279;1.1758;0.1622;2014;2015-02-07_Man City_vs_Sunderland
+04.03.2015 19:45;Man City;Everton;2;0;2.91599;0.418315;2.9161;0.6803;2014;2015-03-04_Man City_vs_Everton
+21.02.2015 15:00;Hull;Man United;2;1;1.09259;1.47171;2.213;1.7129;2014;2015-02-21_Hull_vs_Man United
+08.11.2014 15:00;Burnley;Crystal Palace;1;0;1.10315;0.400837;1.8499;0.8008;2014;2014-11-08_Burnley_vs_Crystal Palace
+13.12.2014 15:00;Burnley;Aston Villa;1;0;0.396158;0.266303;0.3273;0.3204;2014;2014-12-13_Burnley_vs_Aston Villa
+26.12.2014 15:00;Burnley;Stoke;0;1;0.61207;1.39552;0.8775999999999999;1.7337;2014;2014-12-26_Burnley_vs_Stoke
+16.05.2015 15:00;Burnley;Leicester;0;0;0.909845;0.682972;0.6360999999999999;1.1002;2014;2015-05-16_Burnley_vs_Leicester
+16.08.2014 15:00;QPR;Aston Villa;0;1;1.90067;0.909774;2.0149;1.8322;2014;2014-08-16_QPR_vs_Aston Villa
+28.12.2014 15:00;QPR;Sunderland;0;0;0.405679;0.845626;1.3231;1.4964;2014;2014-12-28_QPR_vs_Sunderland
+01.01.2015 15:00;QPR;West Brom;1;1;3.16214;1.1226;2.3069;1.3085999999999998;2014;2015-01-01_QPR_vs_West Brom
+17.01.2015 15:00;QPR;Liverpool;0;2;0.929623;1.54424;0.8639;1.9702;2014;2015-01-17_QPR_vs_Liverpool
+08.12.2015 0:00;Everton;Crystal Palace;1;1;1.69774;1.1905;1.7825;0.9386;2015;2015-12-08_Everton_vs_Crystal Palace
+13.02.2016 19:00;Everton;Southampton;0;1;1.82912;1.19353;1.8246;1.7672;2015;2016-02-13_Everton_vs_Southampton
+16.01.2016 19:00;Bournemouth;West Brom;3;0;2.53086;0.410757;2.6899;0.4259;2015;2016-01-16_Bournemouth_vs_West Brom
+15.12.2015 0:00;Leicester;Chelsea;2;1;0.708846;2.26887;0.3092;2.5394;2015;2015-12-15_Leicester_vs_Chelsea
+02.02.2016 23:45;Leicester;Aston Villa;2;0;1.34566;0.107888;2.071;0.062;2015;2016-02-02_Leicester_vs_Aston Villa
+05.12.2015 19:00;West Brom;Aston Villa;1;1;1.48695;1.058;1.6685;0.3557;2015;2015-12-05_West Brom_vs_Aston Villa
+02.01.2016 19:00;West Brom;Swansea;2;1;1.72318;0.542907;2.0388;0.5028;2015;2016-01-02_West Brom_vs_Swansea
+03.02.2016 0:00;West Brom;Swansea;1;1;2.30645;1.17928;2.1996;0.6018;2015;2016-02-03_West Brom_vs_Swansea
+19.03.2016 19:00;West Brom;Leicester;0;1;0.332789;1.20315;0.7802;1.6994999999999998;2015;2016-03-19_West Brom_vs_Leicester
+15.05.2016 18:00;West Brom;Leicester;1;1;1.86869;1.23491;2.5798;0.8909;2015;2016-05-15_West Brom_vs_Leicester
+22.08.2015 18:00;Sunderland;Tottenham;1;1;0.569426;1.89437;0.6088;2.1979;2015;2015-08-22_Sunderland_vs_Tottenham
+01.03.2016 23:45;Sunderland;West Brom;2;2;0.93375;1.29485;1.3827;0.3445;2015;2016-03-01_Sunderland_vs_West Brom
+31.10.2015 19:00;Crystal Palace;Stoke;0;0;0.939118;1.38017;1.8727;1.4869;2015;2015-10-31_Crystal Palace_vs_Stoke
+24.11.2015 0:00;Crystal Palace;Sunderland;0;1;0.696183;1.30739;0.7918000000000001;1.9252;2015;2015-11-24_Crystal Palace_vs_Sunderland
+03.02.2016 0:00;Crystal Palace;Bournemouth;1;2;1.62395;1.17427;1.7302;0.9916;2015;2016-02-03_Crystal Palace_vs_Bournemouth
+22.08.2015 18:00;Norwich;Tottenham;1;1;3.14888;1.89437;2.7779;2.1979;2015;2015-08-22_Norwich_vs_Tottenham
+05.03.2016 19:00;Chelsea;Sunderland;1;1;1.0615;1.31562;0.9481;1.1981;2015;2016-03-05_Chelsea_vs_Sunderland
+03.11.2015 0:00;Tottenham;Aston Villa;3;1;1.14374;0.325711;2.0859;0.6095999999999999;2015;2015-11-03_Tottenham_vs_Aston Villa
+14.01.2016 0:00;Tottenham;Leicester;0;1;1.2301;0.588708;1.8848;0.8108;2015;2016-01-14_Tottenham_vs_Leicester
+06.02.2016 19:00;Tottenham;West Brom;1;0;2.00475;0.472556;2.6976;0.2203999999999999;2015;2016-02-06_Tottenham_vs_West Brom
+22.12.2015 0:00;Arsenal;Man City;2;1;1.50109;0.769378;2.0007;0.7383;2015;2015-12-22_Arsenal_vs_Man City
+02.01.2016 19:00;Arsenal;Southampton;1;0;1.93025;0.932294;1.9698;0.8583000000000001;2015;2016-01-02_Arsenal_vs_Southampton
+26.12.2015 19:00;Swansea;Leicester;1;0;1.21243;0.505167;2.1517;0.6398999999999999;2015;2015-12-26_Swansea_vs_Leicester
+19.01.2016 0:00;Swansea;Watford;1;0;0.474035;0.525478;1.2118;1.3249;2015;2016-01-19_Swansea_vs_Watford
+09.04.2016 18:00;Swansea;Norwich;1;0;1.9071;0.675663;1.8406;0.6932;2015;2016-04-09_Swansea_vs_Norwich
+15.05.2016 18:00;Swansea;Leicester;1;1;0.115604;1.23491;0.088;0.8909;2015;2016-05-15_Swansea_vs_Leicester
+19.12.2015 19:00;Stoke;Bournemouth;1;2;2.41499;1.89177;1.6751;2.3606;2015;2015-12-19_Stoke_vs_Bournemouth
+02.03.2016 23:45;Stoke;Tottenham;1;0;0.298318;1.22673;1.2146;1.8108;2015;2016-03-02_Stoke_vs_Tottenham
+02.04.2016 18:00;Stoke;Crystal Palace;2;2;1.17598;1.65593;2.0941;1.3434;2015;2016-04-02_Stoke_vs_Crystal Palace
+14.01.2016 0:00;Liverpool;Arsenal;3;3;1.16222;2.22912;0.6077;2.1941;2015;2016-01-14_Liverpool_vs_Arsenal
+03.03.2016 0:00;Liverpool;Man City;3;0;1.16781;0.180318;2.3266;0.4029999999999999;2015;2016-03-03_Liverpool_vs_Man City
+19.12.2015 19:00;Man United;Bournemouth;1;2;1.01394;1.89177;1.7428;2.3606;2015;2015-12-19_Man United_vs_Bournemouth
+03.02.2016 0:00;Man United;Stoke;3;0;2.45272;0.350909;2.7784;0.1387;2015;2016-02-03_Man United_vs_Stoke
+03.03.2016 0:00;Man United;Watford;1;0;0.786278;2.16484;0.4623;2.3661000000000003;2015;2016-03-03_Man United_vs_Watford
+20.12.2016 0:00;Everton;Liverpool;0;1;0.456788;1.87823;0.3264;2.499;2016;2016-12-20_Everton_vs_Liverpool
+15.04.2017 15:00;Everton;Hull;3;1;1.67352;1.17696;1.7351;0.7436;2016;2017-04-15_Everton_vs_Hull
+06.05.2017 15:00;Bournemouth;West Brom;2;2;1.30668;0.82853;0.6498;1.1074;2016;2017-05-06_Bournemouth_vs_West Brom
+13.08.2016 18:00;Southampton;Tottenham;1;1;0.937328;1.12348;2.0192;1.6417;2016;2016-08-13_Southampton_vs_Tottenham
+27.08.2016 18:00;Southampton;Bournemouth;1;1;0.613743;0.974014;0.6205;0.3696;2016;2016-08-27_Southampton_vs_Bournemouth
+11.12.2016 18:15;Southampton;Tottenham;1;0;1.72919;0.720341;2.4456999999999995;1.0441;2016;2016-12-11_Southampton_vs_Tottenham
+29.04.2017 15:00;Southampton;West Ham;0;0;1.24844;0.65149;2.1799;0.7501;2016;2017-04-29_Southampton_vs_West Ham
+04.04.2017 19:45;Leicester;West Brom;2;0;0.929134;1.48109;1.5353;2.1533;2016;2017-04-04_Leicester_vs_West Brom
+15.10.2016 18:00;West Brom;Everton;1;1;1.30365;0.144498;1.3973;0.0373;2016;2016-10-15_West Brom_vs_Everton
+22.11.2016 0:00;West Brom;Burnley;4;0;1.40512;0.571005;2.0702;0.6443;2016;2016-11-22_West Brom_vs_Burnley
+15.12.2016 0:00;West Brom;Swansea;3;1;1.78268;1.07221;1.8987;0.8334;2016;2016-12-15_West Brom_vs_Swansea
+29.04.2017 15:00;West Brom;Bournemouth;0;1;0.809101;1.53094;1.5058;1.2483;2016;2017-04-29_West Brom_vs_Bournemouth
+15.04.2017 15:00;Sunderland;Leicester;2;2;1.14121;0.467725;1.0788;0.4573;2016;2017-04-15_Sunderland_vs_Leicester
+15.12.2016 0:00;Crystal Palace;Man United;1;2;0.710324;1.27306;0.8220999999999999;1.8562;2016;2016-12-15_Crystal Palace_vs_Man United
+04.01.2017 0:00;Crystal Palace;Swansea;1;2;0.331276;1.18905;0.5538000000000001;2.1603;2016;2017-01-04_Crystal Palace_vs_Swansea
+01.10.2016 18:00;West Ham;West Brom;1;1;0.883385;0.88211;1.3475;1.02;2016;2016-10-01_West Ham_vs_West Brom
+17.12.2016 19:00;West Ham;Watford;1;0;1.92151;1.07552;1.9965;1.2896;2016;2016-12-17_West Ham_vs_Watford
+15.12.2016 0:00;Tottenham;Hull;3;0;2.83077;0.570636;2.8109;0.1180999999999999;2016;2016-12-15_Tottenham_vs_Hull
+18.12.2016 20:00;Tottenham;Arsenal;2;1;1.50755;0.609893;1.5601;0.6143000000000001;2016;2016-12-18_Tottenham_vs_Arsenal
+05.01.2017 0:00;Tottenham;Chelsea;2;0;1.00945;0.912754;1.4436;1.2249;2016;2017-01-05_Tottenham_vs_Chelsea
+22.10.2016 18:00;Arsenal;Watford;0;0;0.711811;0.478578;0.6436999999999999;0.5900000000000001;2016;2016-10-22_Arsenal_vs_Watford
+01.11.2016 0:00;Stoke;Swansea;3;1;2.16407;1.10058;2.1675;0.6138;2016;2016-11-01_Stoke_vs_Swansea
+15.12.2016 0:00;Stoke;Southampton;0;0;0.333754;0.723114;0.8867;1.6892;2016;2016-12-15_Stoke_vs_Southampton
+04.01.2017 0:00;Stoke;Watford;2;0;1.85359;0.510395;2.478;0.3495;2016;2017-01-04_Stoke_vs_Watford
+05.11.2016 19:00;Man City;Stoke;1;1;2.49606;0.81046;2.817;1.6904;2016;2016-11-05_Man City_vs_Stoke
+15.12.2016 0:00;Man City;Watford;2;0;1.62359;0.497462;2.2619;0.5047999999999999;2016;2016-12-15_Man City_vs_Watford
+20.08.2016 18:00;Watford;Everton;1;2;0.804549;1.83897;0.5701;1.2924;2016;2016-08-20_Watford_vs_Everton
+31.12.2016 0:00;Hull;Everton;2;2;0.852585;1.27757;1.0067;1.7003;2016;2016-12-31_Hull_vs_Everton
+22.04.2017 15:00;Hull;Stoke;2;0;1.42309;1.69454;1.5979;2.4333;2016;2017-04-22_Hull_vs_Stoke
+13.08.2016 18:00;Burnley;West Brom;0;1;1.04903;0.684593;0.7766;1.0403;2016;2016-08-13_Burnley_vs_West Brom
+26.12.2016 19:00;Burnley;West Brom;1;0;0.275704;0.687502;0.8097000000000001;0.4832;2016;2016-12-26_Burnley_vs_West Brom
+13.08.2016 18:00;Middlesbrough;Tottenham;1;1;1.80523;1.12348;2.5279;1.6417;2016;2016-08-13_Middlesbrough_vs_Tottenham
+06.12.2016 0:00;Middlesbrough;Hull;1;0;1.94961;0.221339;2.6685;0.2004;2016;2016-12-06_Middlesbrough_vs_Hull
+26.04.2017 19:45;Middlesbrough;Leicester;1;0;0.825839;0.595173;1.7328;1.475;2016;2017-04-26_Middlesbrough_vs_Leicester
+12.08.2017 15:00;Everton;Bournemouth;1;0;0.720574;0.378659;1.7647;0.6263;2017;2017-08-12_Everton_vs_Bournemouth
+20.01.2018 15:00;Everton;Bournemouth;1;1;0.92355;0.501886;0.9986;0.8241;2017;2018-01-20_Everton_vs_Bournemouth
+05.05.2018 15:00;Bournemouth;Tottenham;1;0;1.69618;0.969481;1.9364;0.9994;2017;2018-05-05_Bournemouth_vs_Tottenham
+04.11.2017 15:00;Southampton;Bournemouth;0;1;0.789259;1.28703;1.9682;1.882;2017;2017-11-04_Southampton_vs_Bournemouth
+23.12.2017 15:00;Southampton;Crystal Palace;1;1;1.73805;1.25546;1.8755;2.0491;2017;2017-12-23_Southampton_vs_Crystal Palace
+31.01.2018 19:45;Southampton;Burnley;1;1;1.27393;1.22828;1.4495;0.502;2017;2018-01-31_Southampton_vs_Burnley
+13.05.2018 15:00;Southampton;Arsenal;0;1;0.506624;2.3322;1.0368;2.1846;2017;2018-05-13_Southampton_vs_Arsenal
+07.04.2018 14:00;Leicester;Tottenham;1;2;1.09224;1.79894;2.3392;1.6452;2017;2018-04-07_Leicester_vs_Tottenham
+13.12.2017 20:00;West Ham;West Brom;0;0;0.405172;0.520382;0.7889999999999999;0.2783;2017;2017-12-13_West Ham_vs_West Brom
+16.12.2017 15:00;Arsenal;Southampton;1;0;2.02472;0.587081;2.5936;0.7893;2017;2017-12-16_Arsenal_vs_Southampton
+21.10.2017 15:00;Swansea;Bournemouth;1;2;0.559618;1.11834;0.3813;0.9179;2017;2017-10-21_Swansea_vs_Bournemouth
+04.11.2017 15:00;Swansea;Bournemouth;0;1;1.24557;1.28703;1.6679;1.882;2017;2017-11-04_Swansea_vs_Bournemouth
+13.05.2018 15:00;Swansea;Bournemouth;1;2;1.70936;1.38551;1.2654999999999998;1.5265;2017;2018-05-13_Swansea_vs_Bournemouth
+20.01.2018 15:00;Stoke;Watford;2;0;0.987799;0.740795;2.046;0.6549;2017;2018-01-20_Stoke_vs_Watford
+30.12.2017 15:00;Newcastle;Burnley;0;0;0.504379;1.20923;1.1258;2.4628;2017;2017-12-30_Newcastle_vs_Burnley
+16.09.2017 15:00;Liverpool;Leicester;1;1;2.18727;1.24181;2.7088;1.8999;2017;2017-09-16_Liverpool_vs_Leicester
+30.12.2017 15:00;Liverpool;Everton;2;1;2.56607;0.599608;2.5399;0.7019;2017;2017-12-30_Liverpool_vs_Everton
+26.08.2017 15:00;Watford;Southampton;0;0;0.281459;0.795911;0.6756;0.7917;2017;2017-08-26_Watford_vs_Southampton
+07.04.2018 14:00;Watford;Tottenham;1;2;1.36685;1.79894;1.3159;1.6452;2017;2018-04-07_Watford_vs_Tottenham
+09.12.2017 15:00;Burnley;West Brom;1;0;0.485632;0.25228;0.9488;0.6035;2017;2017-12-09_Burnley_vs_West Brom
+24.02.2018 15:00;Brighton;West Ham;4;1;3.2913;0.33527;2.9302;0.023;2017;2018-02-24_Brighton_vs_West Ham
+07.04.2018 14:00;Brighton;Swansea;1;1;1.53244;0.655729;1.3757;0.7984;2017;2018-04-07_Brighton_vs_Swansea
+05.12.2018 19:45;Everton;Leicester;1;1;2.10943;1.21575;1.8095;1.1711999999999998;2018;2018-12-05_Everton_vs_Leicester
+11.08.2018 17:00;Bournemouth;Brighton;2;0;2.60022;0.45504;2.2423;0.5538000000000001;2018;2018-08-11_Bournemouth_vs_Brighton
+10.11.2018 15:00;Southampton;West Ham;1;1;1.20211;1.44113;1.4607;1.5976;2018;2018-11-10_Southampton_vs_West Ham
+09.02.2019 15:00;Southampton;Arsenal;1;2;1.70666;1.46751;2.0587;0.9656;2018;2019-02-09_Southampton_vs_Arsenal
+01.12.2018 15:00;Crystal Palace;Watford;2;0;2.03785;1.19923;2.5617;1.1107;2018;2018-12-01_Crystal Palace_vs_Watford
+12.01.2019 15:00;Crystal Palace;Southampton;1;2;1.1617;1.41659;1.0533;1.0811;2018;2019-01-12_Crystal Palace_vs_Southampton
+30.03.2019 15:00;Crystal Palace;Bournemouth;2;0;2.84701;0.790333;2.5976;0.5747;2018;2019-03-30_Crystal Palace_vs_Bournemouth
+04.12.2018 19:45;West Ham;Crystal Palace;3;1;1.57488;1.5329;1.011;1.5759;2018;2018-12-04_West Ham_vs_Crystal Palace
+15.12.2018 15:00;Tottenham;Leicester;1;0;1.74625;0.895305;2.4027;1.8301;2018;2018-12-15_Tottenham_vs_Leicester
+29.09.2018 14:00;Arsenal;Southampton;2;0;1.57061;0.679627;0.6981999999999999;0.7495;2018;2018-09-29_Arsenal_vs_Southampton
+08.12.2018 15:00;Arsenal;Southampton;1;0;2.02156;0.501128;2.6395;0.5469;2018;2018-12-08_Arsenal_vs_Southampton
+20.10.2018 14:00;Newcastle;Tottenham;0;1;1.71169;1.11777;2.1504;1.8754;2018;2018-10-20_Newcastle_vs_Tottenham
+29.09.2018 14:00;Man City;Southampton;2;0;2.90697;0.679627;2.8899000000000004;0.7495;2018;2018-09-29_Man City_vs_Southampton
+03.04.2019 19:45;Man City;Crystal Palace;2;0;3.53913;0.564317;2.9629;0.2281;2018;2019-04-03_Man City_vs_Crystal Palace
+19.01.2019 15:00;Man United;Everton;2;1;2.64005;1.31169;2.6819;1.5991;2018;2019-01-19_Man United_vs_Everton
+08.12.2018 15:00;Burnley;Southampton;1;0;1.81251;0.501128;2.0648;0.5469;2018;2018-12-08_Burnley_vs_Southampton
+30.03.2019 15:00;Burnley;Bournemouth;2;0;0.572695;0.790333;1.4914999999999998;0.5747;2018;2019-03-30_Burnley_vs_Bournemouth
+13.04.2019 15:00;Burnley;Everton;2;0;2.84358;1.29107;2.6792;1.0792000000000002;2018;2019-04-13_Burnley_vs_Everton
+29.09.2018 14:00;Huddersfield;Leicester;0;2;0.339245;1.34341;0.1381;2.3033;2018;2018-09-29_Huddersfield_vs_Leicester
+12.05.2019 14:00;Brighton;West Ham;1;4;0.595313;3.20094;0.3339;2.1507;2018;2019-05-12_Brighton_vs_West Ham
+25.08.2018 17:00;Fulham;Burnley;4;2;1.92459;1.56882;1.6022;1.1357;2018;2018-08-25_Fulham_vs_Burnley
+29.12.2018 15:00;Fulham;Everton;1;0;1.72386;0.655851;2.5821;0.5871;2018;2018-12-29_Fulham_vs_Everton
+28.09.2019 14:00;Aston Villa;West Ham;2;2;0.914266;1.29546;0.7663;0.7235;2019;2019-09-28_Aston Villa_vs_West Ham
+19.10.2019 15:00;Aston Villa;Burnley;2;1;2.96692;1.79569;2.4098;2.1661;2019;2019-10-19_Aston Villa_vs_Burnley
+23.11.2019 15:00;Everton;Leicester;0;2;0.812693;3.50917;0.638;2.8392;2019;2019-11-23_Everton_vs_Leicester
+26.12.2019 15:00;Everton;Norwich;1;0;1.47521;1.45005;2.1380000000000003;2.0065;2019;2019-12-26_Everton_vs_Norwich
+23.11.2019 15:00;Bournemouth;Liverpool;1;2;0.849789;1.64291;0.9449;1.8781;2019;2019-11-23_Bournemouth_vs_Liverpool
+17.08.2019 15:00;Southampton;Bournemouth;1;2;2.14047;1.62777;1.8259;1.3578;2019;2019-08-17_Southampton_vs_Bournemouth
+04.12.2019 19:30;Southampton;Aston Villa;2;1;2.00232;0.86086;2.2681;0.6134;2019;2019-12-04_Southampton_vs_Aston Villa
+04.12.2019 19:30;Leicester;West Ham;2;0;2.28735;0.501977;2.8303000000000003;0.4048;2019;2019-12-04_Leicester_vs_West Ham
+07.03.2020 15:00;Crystal Palace;Norwich;1;0;0.856107;2.55449;1.7397;2.4715;2019;2020-03-07_Crystal Palace_vs_Norwich
+26.07.2020 15:00;Crystal Palace;Aston Villa;1;1;0.988534;0.983594;2.0478;1.4911;2019;2020-07-26_Crystal Palace_vs_Aston Villa
+28.09.2019 14:00;Chelsea;Norwich;2;0;4.26443;0.712129;2.9361;0.5259;2019;2019-09-28_Chelsea_vs_Norwich
+18.01.2020 15:00;West Ham;Aston Villa;1;1;1.68436;1.02045;1.1683;1.0922;2019;2020-01-18_West Ham_vs_Aston Villa
+19.10.2019 15:00;Tottenham;Southampton;1;1;0.891617;1.37695;1.3987999999999998;1.7256;2019;2019-10-19_Tottenham_vs_Southampton
+18.01.2020 15:00;Arsenal;Aston Villa;1;1;1.22882;1.02045;1.3849;1.0922;2019;2020-01-18_Arsenal_vs_Aston Villa
+07.03.2020 15:00;Arsenal;Norwich;1;0;1.55974;2.55449;1.3209;2.4715;2019;2020-03-07_Arsenal_vs_Norwich
+26.07.2020 15:00;Newcastle;Bournemouth;1;3;0.339294;1.46461;1.0681;1.0957;2019;2020-07-26_Newcastle_vs_Bournemouth
+24.08.2019 15:00;Man United;Leicester;1;2;2.23561;0.704879;2.4881;1.3218;2019;2019-08-24_Man United_vs_Leicester
+04.12.2019 19:30;Man United;Aston Villa;2;1;1.47683;0.86086;2.2216;0.6134;2019;2019-12-04_Man United_vs_Aston Villa
+23.02.2020 14:00;Man United;Norwich;3;0;2.5042;0.360646;2.788;0.0293;2019;2020-02-23_Man United_vs_Norwich
+21.12.2019 15:00;Brighton;Burnley;0;1;0.428371;0.144318;0.3871;1.1229;2019;2019-12-21_Brighton_vs_Burnley
+28.09.2019 14:00;Wolves;Norwich;2;0;1.16363;0.712129;1.4304;0.5259;2019;2019-09-28_Wolves_vs_Norwich
+26.12.2019 15:00;Sheffield United;Arsenal;1;1;2.04481;1.42464;2.5145;1.2271999999999998;2019;2019-12-26_Sheffield United_vs_Arsenal

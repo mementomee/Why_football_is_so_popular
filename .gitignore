@@ -1,0 +1,13 @@
+# Ігнорувати тимчасові файли VS Code
+.vscode/
+*.session.sql
+
+# Ігнорувати документи та зображення
+*.docx
+*.png
+*.jpg
+*.svg
+
+
+Draft/
+teash/
