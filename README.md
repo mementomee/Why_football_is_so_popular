@@ -1,5 +1,7 @@
 # ⚽ Football Analytics: Proving the Beautiful Game's Unpredictability
 
+> **🚀 [Explore the Interactive Dashboard →](https://mementomee.github.io/Data_Analyst_Job_Market_Analysis/)**
+> 
 > **🎯 Statistically proving why football is the world's most popular sport through its inherent unpredictability**
 
 A comprehensive analysis of 6 years of Premier League data (2014-2020) combining betting odds and expected goals (xG) to demonstrate how football's unpredictable nature drives its global popularity through data-driven insights.
