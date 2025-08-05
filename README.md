@@ -1,6 +1,6 @@
 # ⚽ Football Analytics: Proving the Beautiful Game's Unpredictability
 
-> **🚀 [Explore the Interactive Dashboard →](https://mementomee.github.io/Data_Analyst_Job_Market_Analysis/)**
+> **🚀 [Explore the Interactive Dashboard →](https://app.powerbi.com/view?r=eyJrIjoiYTVlMDE3NGYtNDM4Ni00NjgxLWJhOWYtMWMyMjU3ODkwNWI1IiwidCI6IjEzOTA3NTcwLWNiZmUtNDY4Mi1iMDQ3LTQ4MDQwMzIxOThmYyIsImMiOjl9&pageName=ReportSection78b96b3a97c605120ee6)**
 > 
 > **🎯 Statistically proving why football is the world's most popular sport through its inherent unpredictability**
 
