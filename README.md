@@ -1,5 +1,7 @@
 # ⚽ Football Analytics: Proving the Beautiful Game's Unpredictability
 
+> **🚀 [Explore the Interactive Dashboard →](https://app.powerbi.com/view?r=eyJrIjoiYTVlMDE3NGYtNDM4Ni00NjgxLWJhOWYtMWMyMjU3ODkwNWI1IiwidCI6IjEzOTA3NTcwLWNiZmUtNDY4Mi1iMDQ3LTQ4MDQwMzIxOThmYyIsImMiOjl9&pageName=ReportSection78b96b3a97c605120ee6)**
+> 
 > **🎯 Statistically proving why football is the world's most popular sport through its inherent unpredictability**
 
 A comprehensive analysis of 6 years of Premier League data (2014-2020) combining betting odds and expected goals (xG) to demonstrate how football's unpredictable nature drives its global popularity through data-driven insights.
