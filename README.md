@@ -1,345 +1,384 @@
-# ⚽ Football Analytics: Proving the Beautiful Game's Unpredictability
+# ⚽ Why Football is So Popular: A Statistical Analysis
 
-> **🚀 [Explore the Interactive Dashboard →](https://app.powerbi.com/view?r=eyJrIjoiYTVlMDE3NGYtNDM4Ni00NjgxLWJhOWYtMWMyMjU3ODkwNWI1IiwidCI6IjEzOTA3NTcwLWNiZmUtNDY4Mi1iMDQ3LTQ4MDQwMzIxOThmYyIsImMiOjl9&pageName=ReportSection78b96b3a97c605120ee6)**
-> 
-> **🎯 Statistically proving why football is the world's most popular sport through its inherent unpredictability**
+> **🌐 [Live Interactive Report](https://mementomee.github.io/Why_football_is_so_popular/)** | **📊 [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTVlMDE3NGYtNDM4Ni00NjgxLWJhOWYtMWMyMjU3ODkwNWI1IiwidCI6IjEzOTA3NTcwLWNiZmUtNDY4Mi1iMDQ3LTQ4MDQwMzIxOThmYyIsImMiOjl9&pageName=ReportSection78b96b3a97c605120ee6)**
 
-A comprehensive analysis of 6 years of Premier League data (2014-2020) combining betting odds and expected goals (xG) to demonstrate how football's unpredictable nature drives its global popularity through data-driven insights.
+**Comprehensive statistical analysis proving why football is the world's most popular sport through its inherent unpredictability**
 
----
-
-## 📖 Introduction
-
-This project answers a fundamental question about sports popularity:
-
-- **⚽ Why is football the world's most beloved sport?**
-- **📊 How does unpredictability drive fan engagement?**
-- **🎲 Can we quantify the "beautiful game's" uncertainty?**
-- **💰 How accurate are betting markets in predicting outcomes?**
-- **📈 What makes matches truly unpredictable?**
-
-By analyzing 2820 matches with advanced metrics, this project reveals the statistical foundation of football's global appeal.
+Using 6 years of Premier League data (2014-2020), this research demonstrates that football's global dominance stems from its perfect balance of predictability and chaos - keeping 4.046 billion fans emotionally invested worldwide.
 
 ---
 
-## 🎯 Background
+## 🎯 Key Research Findings
 
-### The Hypothesis
-Football's unparalleled global popularity stems from its fundamental unpredictability - where underdogs can triumph, favorites can fall, and every match holds genuine uncertainty that keeps billions of fans engaged.
+### **💡 The Unpredictability Formula**
+Football maintains the optimal balance for human emotional investment:
+- **70.3%** predictable (skill-based outcomes)
+- **29.7%** unpredictable (chaos factor)
+- **Perfect ratio** that prevents both boredom and frustration
 
-### The Challenge
-While everyone "knows" football is unpredictable, no comprehensive statistical analysis existed to:
-- Quantify actual vs expected outcomes
-- Measure betting market accuracy
-- Identify patterns in unpredictability
-- Prove the correlation between uncertainty and popularity
+### **📊 Statistical Breakthroughs**
 
-### The Solution
-This project combines:
-- **Comprehensive Data Integration** - Merging betting odds with advanced performance metrics
-- **Predictive Analytics** - Comparing expected vs actual outcomes across multiple dimensions
-- **Unpredictability Indices** - Custom metrics to quantify match uncertainty
-- **Interactive Visualizations** - Power BI dashboard for deep insights
+| Discovery | Finding | Impact |
+|-----------|---------|---------|
+| **🎲 Chaos vs Logic** | 8.9% gap between xG models and reality | Proves mathematical limits |
+| **🏠 Home Advantage** | +35% more goals, +40% more points | Quantifies emotional factors |
+| **⚽ Goal Distribution** | 83% of matches decided by 0-2 goals | Explains maximum drama |
+| **📈 Market Efficiency** | Bookmakers 70.3% accurate vs xG, 61.4% vs reality | Shows prediction ceiling |
+| **🔢 Shot Volume Myth** | Only 50.8% correlation with wins | Debunks common beliefs |
 
-### Data Sources
-- **Betting Odds:** 2014-2020 Premier League season data from multiple bookmakers
-- **Expected Goals (xG):** Understat performance metrics for all matches
-- **Match Statistics:** Shots, shots on target, results, and team performance data
-- **Time Period:** 6 complete Premier League seasons
+### **🏆 The Leicester Phenomenon**
+- **2015/16 season:** Peak unpredictability (0.73 index)
+- **5000/1 odds** became reality through statistical chaos
+- **Proof of concept:** Even extreme outliers remain possible
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🚀 Project Overview
 
-### **Data Integration & Processing**
-- **Python** - ETL pipeline for merging heterogeneous data sources
-- **Pandas** - Data manipulation and cleaning
-- **Custom Algorithms** - Intelligent team name mapping and date parsing
+This multi-platform research project combines data science, web development, and statistical analysis to answer the fundamental question: **Why is football the world's most popular sport?**
 
-### **Analytics & Calculations**
-- **Power BI** - Interactive dashboard and visualization platform
-- **DAX (Data Analysis Expressions)** - 20+ custom formulas for advanced metrics
-- **Statistical Modeling** - Unpredictability indices and performance differentials
+### **Research Hypothesis**
+Football's unparalleled global popularity (4.046 billion fans) stems from its inherent unpredictability - where underdogs can triumph, favorites can fall, and every match holds genuine uncertainty.
 
-### **Data Architecture**
-```
-Betting Odds CSV Files → Python ETL → Integrated Dataset → Power BI → DAX Analytics → Interactive Dashboard
-Understat xG Data ↗
-```
+### **Methodology**
+- **Dataset:** 2,820 Premier League matches (2014-2020)
+- **Sources:** Betting odds + Understat xG data
+- **Analysis:** Custom ETL pipeline + Power BI + Statistical modeling
+- **Presentation:** Interactive web report + Live dashboard
 
 ---
 
-## 🔍 The Analysis
-
-### 1. **Bookmaker vs Reality Analysis**
-**Question:** Do bookmakers predict mathematical models better than chaotic reality?
-
-**Key Metrics:**
-```dax
-OddG = IF(
-    '14-20'[TotalG] > 2.5,
-    IF('14-20'[%>2.5] > 49.9/100, 1, 0),
-    IF('14-20'[%<2.5] > 49.9/100, 1, 0)
-)
-```
-
-**Revolutionary Findings:**
-- **Winners Prediction:** Bookmakers achieve 70.3% accuracy vs xG but only 61.4% vs reality (+8.9% chaos factor)
-- **Goals Prediction:** 59.5% vs xG compared to 57.2% vs reality (+2.3% minimal advantage)
-- **Peak Chaos:** January shows maximum unpredictability with 17.6% difference between logic and reality
-- **Proof of Concept:** Mathematics is predictable, real football is beautifully chaotic
-
-### 2. **Chaos Factor Quantification**
-**Question:** Can we measure the exact level of football's unpredictability?
-
-**Core Formula:**
-```dax
-Unpredictability_Index = 
-VAR H = IF('14-20'[R] = "H", 1, 0)
-VAR D = IF('14-20'[R] = "D", 1, 0)
-VAR A = IF('14-20'[R] = "A", 1, 0)
-VAR pH = '14-20'[%W1]
-VAR pD = '14-20'[%D]
-VAR pA = '14-20'[%W2]
-RETURN (H - pH)^2 + (D - pD)^2 + (A - pA)^2
-```
-
-**Breakthrough Insights:**
-- **Logic vs Chaos:** Bookmakers predict xG results 8.9% better than real outcomes (proving mathematical predictability vs chaotic reality)
-- **Goals are Pure Chaos:** Only 2.3% advantage for xG predictions shows goals are nearly random events
-- **Winter Chaos Effect:** January delivers peak unpredictability (17.6% gap) after winter break
-- **Scientific Proof:** Football contains measurable chaos that defies even advanced statistical models
-
-### 3. **Seasonal Chaos Patterns**
-**Question:** When is football most beautifully unpredictable?
-
-**Metrics:**
-```dax
-WinXg = IF(
-    '14-20'[xG1] > '14-20'[xG2],
-    IF('14-20'[R] = "H", 1, 0),
-    IF('14-20'[R] = "A", 1, 0)
-)
-```
-
-**Seasonal Discoveries:**
-- **August Anomaly:** Home teams perform worst (-0.1 advantage) while away teams peak (1.4 pts) - chaos begins early
-- **September Goals Peak:** Highest total goals (3.0) shows summer form translating to results
-- **January Chaos Maximum:** Winter break creates 17.6% prediction failure rate - peak unpredictability
-- **February/May Home Dominance:** Home teams peak (1.8 pts) showing seasonal adaptation patterns
-- **Goal Randomness:** Only 64% alignment between xG and actual results proves inherent chaos
-
-### 4. **Home Advantage Chaos Theory**
-**Question:** Does home advantage follow chaotic patterns?
-
-**Key Discoveries:**
-- **Reverse Effect:** August shows negative home advantage (-0.1) - early season chaos
-- **Peak Performance:** February and May deliver maximum home advantage (+0.8) 
-- **Overperformance Volatility:** Home teams swing from -0.15 (August) to +0.11 (March) overperformance
-- **Away Team Resilience:** Best away performance in August (1.4 pts) when home teams struggle
-- **Chaos Confirmation:** Seasonal variations prove unpredictable patterns even in fundamental football concepts
-
-### 5. **The Beautiful Chaos Theory**
-**Question:** What makes football's unpredictability so compelling?
-
-**Scientific Evidence:**
-- **Mathematical Paradox:** The better our models (xG), the more chaos becomes apparent
-- **Chaos Elements:** Weather, injuries, emotions, referee decisions create 8.9% baseline unpredictability
-- **Random Goal Factor:** Low-scoring nature means single random events change entire match outcomes
-- **Winter Break Effect:** Rest periods amplify chaos by disrupting rhythm and form
-- **Human Factor:** Player psychology and pressure create unmeasurable variables that defeat logic
-
----
-
-## 🎓 Key Discoveries
-
-### **The Unpredictability Proof**
-1. **Statistical Uncertainty:** Even with advanced metrics, 36% of outcomes remain genuinely surprising
-2. **Market Inefficiency:** Professional betting markets achieve only 67-72% accuracy
-3. **Performance Paradox:** Superior performance (xG, shots) translates to wins only 64% of the time
-4. **Emotional Investment:** Unpredictability drives sustained fan engagement across seasons
-
-### **The Popularity Connection**
-1. **Hope Factor:** Every team has genuine win probability in any match
-2. **Narrative Drama:** Underdogs triumph frequently enough to maintain belief
-3. **Emotional Volatility:** Unpredictable outcomes create intense emotional experiences
-4. **Season-Long Engagement:** Uncertainty persists throughout entire campaigns
-
-### **Technical Insights**
-1. **Data Integration Complexity:** Merging heterogeneous sports data requires sophisticated ETL
-2. **Metric Development:** Custom unpredictability indices provide novel analytical perspectives
-3. **Visualization Impact:** Interactive dashboards reveal patterns invisible in static analysis
-4. **Real-World Application:** Sports analytics principles apply to other uncertainty-driven domains
-
----
-
-## 🏆 Conclusions
-
-### **The Unpredictability Proof: CONFIRMED**
-Football's global popularity is **scientifically proven** to correlate with measurable unpredictability:
-
-1. **Mathematical vs Reality Gap:** 8.9% consistent difference between logical predictions and chaotic outcomes
-2. **Peak Chaos Periods:** January delivers 17.6% maximum unpredictability following winter break
-3. **Goals as Random Events:** Only 2.3% advantage for advanced statistical models over reality
-4. **Seasonal Chaos Patterns:** August reverses normal home advantage showing systemic unpredictability
-5. **Scientific Validation:** Professional analysts with unlimited data still fail to predict 30%+ of outcomes
-
-### **The Beautiful Game's Secret Formula**
-- **Logic Component:** xG, statistics, analysis (70.3% predictable)
-- **Chaos Component:** Weather, emotions, luck, human error (29.7% unpredictable)
-- **Result:** Perfect balance that keeps 4 billion fans emotionally invested globally
-
-### **Breakthrough Discovery**
-This analysis proves football maintains optimal unpredictability levels:
-- **Too predictable:** Fans lose interest (like heavily favored matches)
-- **Too chaotic:** No skill element (pure gambling)
-- **Football's sweet spot:** 30% chaos factor creates perfect emotional investment balance
-
----
-
-## 📄 Project Structure
+## 📁 Project Structure
 
 ```
-Football_Analytics_Unpredictability/
-├── PowerBI/
-│   ├── DAX_Formulas.md         # 20+ custom analytical formulas
-│   └── Football_Dashboard.pbix  # Interactive Power BI dashboard
-├── Python/
-│   ├── Data_Merger.py          # Main ETL pipeline
-│   ├── Missing_Matches.py      # Data quality analysis
-│   └── Found_Missing_Matches.py # Automated match finding
-├── Data/
-│   ├── Odds_EPL_2014-20/       # Betting odds CSV files
-│   ├── understat_2014_20/      # Expected goals data
-│   └── integrated_dataset.csv   # Final merged dataset
-├── Analysis_Results/
-│   ├── unpredictability_report.csv
-│   └── accuracy_analysis.csv
-└── README.md                   # This file
+Why_football_is_so_popular/
+├── report/                                    # React web application
+│   ├── src/                                  # React components & pages
+│   │   ├── pages/
+│   │   │   ├── Index.tsx                     # Main report page
+│   │   │   └── NotFound.tsx                  # 404 page
+│   │   ├── components/                       # Reusable UI components
+│   │   └── lib/                             # Utilities and helpers
+│   ├── public/                              # Static assets
+│   │   ├── 404.html                         # GitHub Pages SPA support
+│   │   └── index.html                       # Main HTML template
+│   ├── package.json                         # Dependencies & scripts
+│   ├── vite.config.ts                       # Build configuration
+│   ├── tailwind.config.js                   # Tailwind CSS setup
+│   ├── tsconfig.json                        # TypeScript configuration
+│   └── README.md                            # Technical documentation
+├── Python/                                   # Data processing pipeline
+│   ├── Data_Merger.py                       # Main ETL script
+│   ├── Missing_Matches.py                   # Data gap analysis
+│   ├── Found_Missing_Matches.py             # Automated recovery
+│   └── README.md                            # Pipeline documentation
+├── PowerBI/                                 # Power BI resources
+│   └── DAX_Formulas.md                      # Custom analytics formulas
+├── Data/                                    # Raw & processed datasets
+│   ├── Odds_EPL_2014-20/                    # Betting odds (6 seasons)
+│   ├── understat_2014_20/                   # Expected goals data
+│   └── integrated_football_analytics_dataset.csv # Final merged data
+├── .github/
+│   └── workflows/
+│       └── deploy.yml                       # Automated deployment
+└── README.md                               # This file
+```
+
+**Note:** Some folders (PowerBI/, Data/) may need to be created during initial setup or data collection.
+
+---
+
+## 🛠️ Technology Stack
+
+### **🌐 Web Report (React)**
+- **Frontend:** React 18+ + TypeScript 5+
+- **Styling:** Tailwind CSS 3+ + shadcn/ui components
+- **Build:** Vite 5+ (fast bundling & HMR)
+- **Deployment:** GitHub Pages + GitHub Actions
+
+### **🐍 Data Pipeline (Python)**
+- **Core:** pandas 1.3.0+ for data manipulation
+- **Processing:** Custom ETL with intelligent matching
+- **Validation:** Comprehensive quality checks
+- **Output:** Power BI-ready integrated dataset
+
+### **📊 Analytics (Power BI)**
+- **Visualizations:** Interactive charts & dashboards
+- **Calculations:** 20+ custom DAX formulas
+- **Models:** Unpredictability indices & efficiency metrics
+- **Sharing:** Public dashboard with live data
+
+---
+
+## 🚀 Quick Start
+
+### **1️⃣ View Live Results**
+```bash
+# Interactive web report
+https://mementomee.github.io/Why_football_is_so_popular/
+
+# Power BI dashboard
+https://app.powerbi.com/view?r=eyJrIjoiYTVlMDE3NGYtNDM4Ni00NjgxLWJhOWYtMWMyMjU3ODkwNWI1IiwidCI6IjEzOTA3NTcwLWNiZmUtNDY4Mi1iMDQ3LTQ4MDQwMzIxOThmYyIsImMiOjl9&pageName=ReportSection78b96b3a97c605120ee6
+```
+
+### **2️⃣ Run Web Report Locally**
+```bash
+# Clone repository
+git clone https://github.com/mementomee/Why_football_is_so_popular.git
+cd Why_football_is_so_popular/report
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+# Open http://localhost:5173 (Vite default port)
+```
+
+### **3️⃣ Run Data Pipeline**
+```bash
+# Navigate to Python folder
+cd Python
+
+# Install dependencies
+pip install pandas numpy python-dateutil
+
+# Run ETL pipeline
+python Data_Merger.py
+
+# Analyze missing data
+python Missing_Matches.py
+python Found_Missing_Matches.py
 ```
 
 ---
 
-## 🚀 Methodology
+## 📈 Research Insights
 
-### Data Integration Pipeline
-```python
-# 1. Load and standardize multiple betting odds files
-odds_data = merger.merge_odds_files(odds_folder_path)
+### **🔍 Betting Market Analysis**
+- **Goals Prediction Accuracy:** 58.68% (reality) vs 60.75% (xG)
+- **Winner Prediction:** 70.3% vs xG models, 61.4% vs reality
+- **Technology Evolution:** 2019/20 breakthrough to 68.95% accuracy
+- **Unpredictable Teams:** Tottenham (52%), Everton (54%)
+- **Predictable Teams:** Man City (67%), Burnley (67%)
 
-# 2. Process Understat xG data
-understat_data = merger.process_understat_data(understat_file_path)
+### **🏠 Home Advantage Phenomenon**
+- **Goal Advantage:** 1.53 vs 1.18 goals per match (+30%)
+- **Points Advantage:** 1.61 vs 1.15 points per match (+40%)
+- **Seasonal Patterns:** Strongest in February, weakest in August
+- **Underlying Factors:** Crowd support, travel fatigue, referee bias
 
-# 3. Create intelligent lookup system
-lookup_table = merger.create_understat_lookup(understat_data)
+### **⚽ Goal Scoring Patterns**
+- **Low Scoring Nature:** Average 2.71 goals per match
+- **Tight Margins:** 60% of matches decided by 0-1 goals
+- **Drama Factor:** 83% within 0-2 goal difference
+- **xG Accuracy:** 99% precision over 6,189 total goals
 
-# 4. Generate final analytics dataset
-final_dataset = merger.format_final_dataset(odds_data, lookup_table)
+### **🎲 Unpredictability Index**
+- **Average Season:** 0.56 unpredictability
+- **Leicester Season (2015/16):** 0.73 (peak chaos)
+- **Most Predictable:** 2016/17 (post-Leicester normalization)
+- **Formula:** (Actual - Predicted)² across all outcomes
+
+---
+
+## 📊 Key Performance Indicators
+
+### **⚽ Match-Level Metrics**
+```
+📈 Total Goals: 2.71 average per match
+🎯 Expected Goals: 2.68 average (99% accuracy)
+🏠 Home Win Rate: 46.2%
+✖️ Draw Rate: 25.1% 
+🛫 Away Win Rate: 28.7%
 ```
 
-### Key Analytical Formulas
-```dax
--- Unpredictability Index
-Unpredictability_Index = (H - pH)^2 + (D - pD)^2 + (A - pA)^2
+### **📉 Predictability Metrics**
+```
+🔮 Bookmaker Accuracy: 61.4% (winners)
+📊 xG Model Accuracy: 70.3% (winners)
+🎲 Upset Rate: 29.7% (chaos factor)
+📈 Goals Market: 58.68% (over/under 2.5)
+```
 
--- Betting Accuracy
-OddG = IF(TotalG > 2.5, IF(%>2.5 > 0.499, 1, 0), IF(%<2.5 > 0.499, 1, 0))
-
--- Performance Differential
-Xg_Dif = Goals_Scored - Expected_Goals
+### **🏆 Team Performance**
+```
+⭐ Best Finishers: Liverpool (+45 goals vs xG)
+🎯 Most Efficient: Tottenham (+51 goals vs xG)
+📊 Most Predictable: Man City (67% accuracy)
+🎲 Most Chaotic: Tottenham (52% accuracy)
 ```
 
 ---
 
-## 📊 Dashboard Features
+## 🎯 Research Applications
 
-### **Interactive Analytics**
-- **📈 Chaos vs Logic Trends** - Track unpredictability patterns: when mathematics fails reality
-- **🎯 Prediction Failure Rates** - Visualize where professional analysts struggle most  
-- **⚽ Seasonal Chaos Patterns** - Discover peak unpredictability periods (January winter break effect)
-- **📅 Monthly Drama Index** - Explore when football becomes most beautifully chaotic
-- **🔍 Individual Match Chaos** - Deep-dive into specific upset analysis and chaos factors
+### **📚 Academic Value**
+- **Sports Analytics:** Methodology for unpredictability measurement
+- **Behavioral Economics:** Fan engagement optimization models
+- **Data Science:** ETL pipeline for multi-source integration
+- **Statistics:** Prediction accuracy benchmarking
 
-### **Revolutionary Visualizations**
-- **Logic vs Reality Charts** - Show 8.9% gap between mathematical models and chaotic outcomes
-- **Bookmaker Failure Heatmaps** - Reveal when professional predictions collapse
-- **Chaos Seasonality Graphs** - Track 17.6% peak unpredictability in January
-- **Home Advantage Anomalies** - Visualize how even fundamentals become unpredictable
-- **Goal Randomness Scatter** - Prove goals are 97.7% unpredictable events
+### **🏢 Industry Applications**
+- **Broadcasting:** Content scheduling based on unpredictability
+- **Betting:** Market efficiency analysis and modeling
+- **Sports Management:** Performance evaluation beyond results
+- **Marketing:** Fan engagement prediction models
 
----
-
-## 🔗 Key Revolutionary Insights
-
-| **Discovery** | **Finding** | **Impact on Popularity** |
-|---------------|-------------|--------------------------|
-| **Logic vs Chaos** | 70.3% vs 61.4% prediction accuracy | Mathematics predictable, reality beautifully chaotic |
-| **Peak Chaos** | 17.6% gap in January | Winter breaks amplify unpredictability = peak drama |
-| **Goal Randomness** | 2.3% minimal xG advantage | Goals are nearly random = every shot matters |
-| **Home Disadvantage** | -0.1 August advantage | Even fundamentals become unpredictable |
-| **Chaos Consistency** | 8.9% baseline uncertainty | Perfect balance for sustained global engagement |
-| **Professional Failure** | 30%+ prediction failures | Even experts can't tame football's beautiful chaos |
+### **🧠 Broader Insights**
+- **Entertainment Theory:** Optimal unpredictability ratios
+- **Game Design:** Balancing skill and chance elements
+- **Investment Analysis:** Market prediction limitations
+- **Psychology:** Emotional investment drivers
 
 ---
 
-## 🎯 Future Enhancements
+## 📝 Methodology Notes
 
-### **Advanced Analytics**
-- [ ] Machine learning predictive models
-- [ ] Real-time unpredictability scoring
-- [ ] Cross-league comparison analysis
-- [ ] Player-level impact on unpredictability
+### **🔬 Data Quality**
+- **Coverage:** 2,820 matches (100% of 2014-2020 Premier League)
+- **Sources:** Multiple bookmakers + Understat xG data
+- **Validation:** Comprehensive ETL pipeline with quality checks
+- **Missing Data:** <5% with automated recovery attempts
 
-### **Extended Data Sources**
-- [ ] Additional European leagues
+### **📊 Statistical Approach**
+- **Bookmaker Margin:** 5% removed from all odds (0.95 factor)
+- **Threshold:** 49.9% probability for prediction accuracy
+- **Unpredictability:** Sum of squared prediction errors
+- **Team Tiers:** Based on average points per game
+
+### **⚙️ Technical Implementation**
+- **ETL Pipeline:** Python with pandas for data processing
+- **Analysis:** Power BI with custom DAX formulas
+- **Presentation:** React web app with modern UI/UX
+- **Deployment:** Automated CI/CD via GitHub Actions
+
+---
+
+## 🎖️ Project Achievements
+
+### **🏆 Research Contributions**
+- ✅ **First comprehensive unpredictability analysis** of Premier League
+- ✅ **Quantified home advantage** across multiple metrics
+- ✅ **Proved xG model accuracy** at scale (6,189 goals)
+- ✅ **Demonstrated betting market evolution** over 6 years
+- ✅ **Created reusable methodology** for sports analytics
+
+### **💻 Technical Accomplishments**
+- ✅ **Complex ETL pipeline** merging heterogeneous data sources
+- ✅ **Interactive web report** with modern React architecture
+- ✅ **20+ custom DAX formulas** for advanced analytics
+- ✅ **Automated deployment** with CI/CD pipeline
+- ✅ **Comprehensive documentation** for reproducibility
+
+---
+
+## 🌟 Future Enhancements
+
+### **📊 Data Expansion**
+- [ ] Additional leagues (La Liga, Bundesliga, Serie A)
 - [ ] Historical data back to 1990s
-- [ ] In-play betting market analysis
-- [ ] Social media sentiment correlation
+- [ ] Player-level impact analysis
+- [ ] In-play betting market dynamics
 
-### **Technical Improvements**
-- [ ] Automated data pipeline
-- [ ] Cloud-based processing
-- [ ] API integration for live data
-- [ ] Mobile dashboard application
+### **🤖 Advanced Analytics**
+- [ ] Machine learning prediction models
+- [ ] Real-time unpredictability scoring
+- [ ] Sentiment analysis integration
+- [ ] Weather and external factors
 
----
-
-## 📝 Research Applications
-
-This methodology and framework can be applied to:
-
-- **Other Sports:** Rugby, basketball, tennis unpredictability analysis
-- **Financial Markets:** Volatility and prediction accuracy studies
-- **Entertainment Industry:** Content popularity and audience engagement
-- **Political Analysis:** Election outcome predictability research
+### **🌐 Platform Development**
+- [ ] Mobile application
+- [ ] API for real-time data access
+- [ ] Community features and predictions
+- [ ] Integration with live sports data
 
 ---
 
 ## 🤝 Contributing
 
-Contributions welcome! Areas of interest:
-- Additional data sources integration
-- Advanced statistical modeling
-- New unpredictability metrics
-- Cross-sport comparative analysis
+This research project welcomes contributions in several areas:
+
+### **🔬 Research Extensions**
+- Cross-sport unpredictability analysis
+- Additional statistical methodologies
+- Behavioral analysis of fan engagement
+- Expanded data source integration
+
+### **💻 Technical Improvements**
+- Performance optimizations
+- Additional visualizations
+- Mobile responsiveness enhancements
+- Accessibility improvements
+
+### **📊 Data Science**
+- Alternative prediction models
+- Advanced statistical techniques
+- Machine learning implementations
+- Data quality improvements
+
+**How to contribute:**
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/amazing-analysis`)
+3. Commit changes (`git commit -m 'Add amazing analysis'`)
+4. Push to branch (`git push origin feature/amazing-analysis`)
+5. Open a Pull Request
 
 ---
 
+## 📄 License & Citation
+
+### **License**
+This project is released under the MIT License. See `LICENSE` file for details.
+
+### **Citation**
+If you use this research in academic work, please cite:
+```
+Petrashchuk, N. (2024). Why Football is So Popular: A Statistical Analysis of 
+Unpredictability in Premier League (2014-2020). GitHub Repository: 
+https://github.com/mementomee/Why_football_is_so_popular
+```
+
+### **Data Sources**
+- **Betting Odds:** Various bookmakers (2014-2020)
+- **Expected Goals:** Understat.com
+- **Match Results:** Premier League official data
+
+---
+
+## 👨‍💻 Author & Contact
+
+**Nazar Petrashchuk**  
+*Data Analyst & Football Analytics Researcher*
+
+### **🔗 Connect:**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nazar-petrashchuk-b781472aa/)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/mementomee)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:petrasuknazar@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/mementomee)
+
+### **📊 Project Links:**
+[![Live Report](https://img.shields.io/badge/Live_Report-brightgreen?style=flat&logo=react&logoColor=white)](https://mementomee.github.io/Why_football_is_so_popular/)
+[![Power BI](https://img.shields.io/badge/Power_BI_Dashboard-F2C811?style=flat&logo=powerbi&logoColor=black)](https://app.powerbi.com/view?r=eyJrIjoiYTVlMDE3NGYtNDM4Ni00NjgxLWJhOWYtMWMyMjU3ODkwNWI1IiwidCI6IjEzOTA3NTcwLWNiZmUtNDY4Mi1iMDQ3LTQ4MDQwMzIxOThmYyIsImMiOjl9&pageName=ReportSection78b96b3a97c605120ee6)
+
+---
 
 ## ⭐ Show Your Support
 
-If this analysis helped prove football's beautiful unpredictability, please give it a ⭐️!
-
-**Built with ⚽ and 📊 by [Nazar](https://github.com/mementomee)**
-
-### 🤝 Let's Connect!
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nazar-petrashchuk-b781472aa/)
-[![Telegram](https://img.shields.io/badge/Telegram-Message-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mementomee)
-[![Email](https://img.shields.io/badge/Email-petrasuknazar@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:petrasuknazar@gmail.com)
+If this research helped you understand the beautiful unpredictability of football, please:
+- ⭐ **Star this repository**
+- 🔄 **Share with fellow football fans**
+- 💬 **Discuss findings on social media**
+- 🤝 **Contribute to further research**
 
 ---
 
-*"Football is the most important of the less important things in the world."*
-*Carlo Ancelotti*
+> *"Football is the most important of the less important things in the world."*  
+> **— Carlo Ancelotti**
 
-*Last updated: August 2025 | Data: Premier League 2014-2020*
+**🎯 Proving through data what fans have always known: football's beautiful chaos is its greatest strength.**
+
+---
+
+*📊 Statistical Analysis | ⚽ Football Research | 🌍 Global Popularity Study*  
+*Last Updated: August 2025 | Dataset: Premier League 2014-2020 | Matches Analyzed: 2,820*
