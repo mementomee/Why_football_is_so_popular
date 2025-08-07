@@ -151,7 +151,7 @@ const Index = () => {
               <CardContent className="space-y-8">
                 <div className="mb-8 text-center">
                   <p className="text-2xl font-bold text-football-cyan mb-4">
-                    **The numbers speak for themselves: 4.046 billion fans worldwide.**
+                    The numbers speak for themselves: 4.046 billion fans worldwide.
                   </p>
                   <p className="text-lg text-muted-foreground leading-relaxed max-w-4xl mx-auto">
                     Football is not just the most popular sport on the planet - it outsells its closest competitor (cricket) by almost double! But what lies behind these staggering numbers?
@@ -241,7 +241,7 @@ const Index = () => {
                   <div className="bg-gradient-to-r from-football-cyan/20 to-football-blue/20 p-6 rounded-xl border border-football-cyan/30">
                     <p className="text-xl font-bold text-football-cyan mb-2">Statistical confirmation of the phenomenon</p>
                     <p className="text-muted-foreground">
-                      Why is it that football has gathered **4 billion** fans, not cricket or hockey? The answer lies in its unique unpredictability - the very quality that we will analyze in this study using 6 seasons of the Premier League as an example.
+                      Why is it that football has gathered 4 billion fans, not cricket or hockey? The answer lies in its unique unpredictability - the very quality that we will analyze in this study using 6 seasons of the Premier League as an example.
                     </p>
                   </div>
                 </div>
@@ -546,16 +546,19 @@ const Index = () => {
                   <p className="text-lg text-muted-foreground leading-relaxed">
                     The EPL has become a laboratory for the future of football, where money, tactics and 
                     technology have created the most competitive league in the history of the sport. 
-                    Long-term changes we can observe: complete disappearance of classic top 6, newcomers 
-                    eliminated without a chance, and an even bigger gap between EPL and other leagues.
+                    The transformation from brute force to smart football is not just a trend, but a new reality that will shape the future of the game.
                   </p>
                 </div>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
 
-                {/* Dashboard */}
-                <div className="w-full flex justify-center bg-background/50 rounded-xl p-6">
-                  <iframe 
-                    title="Football Dashboard" 
-                    width="1000" 
+        {/* Dashboard */}
+        <div className="w-full flex justify-center bg-background/50 rounded-xl p-6">
+          <iframe 
+            title="Comprehensive Dashboard" 
+            width="1000" 
                     height="600" 
                     src="https://app.powerbi.com/view?r=eyJrIjoiYTVlMDE3NGYtNDM4Ni00NjgxLWJhOWYtMWMyMjU3ODkwNWI1IiwidCI6IjEzOTA3NTcwLWNiZmUtNDY4Mi1iMDQ3LTQ4MDQwMzIxOThmYyIsImMiOjl9&pageName=ReportSection78b96b3a97c605120ee6" 
                     frameBorder="0" 
@@ -771,7 +774,7 @@ const Index = () => {
                 </CardTitle>
                 <div className="text-center">
                   <p className="text-2xl font-bold text-football-cyan mb-4">
-                    💡 A shocking discovery: The number of hits predicts victory no better than a coin flip.
+                    💡 A shocking discovery: The number of shots predicts victory no better than a coin flip.
                   </p>
                 </div>
               </CardHeader>
@@ -842,7 +845,7 @@ const Index = () => {
                           <h5 className="font-bold text-football-yellow mb-2">Examples from life:</h5>
                           <p>• <strong>Height vs. Weight</strong>: ~70% (taller people are often heavier)</p>
                           <p>• <strong>Education vs. Income</strong>: ~65% (education usually = more money)</p>
-                          <p>• <strong>Hitting ↔ Winning</strong>: 50.8% (almost a fluke!)</p>
+                          <p>• <strong>Shooting ↔ Winning</strong>: 50.8% (almost a fluke!)</p>
                         </div>
                       </div>
                     </div>
@@ -854,7 +857,7 @@ const Index = () => {
                     <div className="bg-football-red/10 p-6 rounded-xl border border-football-red/30">
                       <h4 className="text-lg font-bold text-football-red mb-4">🎯 Why kicks are deceptive:</h4>
                       <div className="bg-background/50 p-4 rounded-lg">
-                        <h5 className="font-bold mb-3">Scenario 1: Team A vs Team B</h5>
+                        <h5 className="font-bold mb-3">Scenario: Team A vs Team B</h5>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                           <div className="bg-football-red/20 p-3 rounded">
                             <p><strong>Team A:</strong> 20 shots, on goal 5, xG 2.2, 2 goals, <span className="text-football-red font-bold">loss 2-3</span></p>
@@ -986,14 +989,14 @@ const Index = () => {
                         <div className="bg-background/50 p-4 rounded-lg">
                           <h5 className="font-bold text-football-green mb-3">AVERAGE INDEX OF THE SEASON</h5>
                           <div className="space-y-2 text-muted-foreground">
-                            <p>🏴󠁧󠁢󠁥󠁮󠁧󠁿 UPL in general: <strong>0.62</strong></p>
+                            <p>🏴󠁧󠁢󠁥󠁮󠁧󠁿 EPL in general: <strong>0.62</strong></p>
                             <p>🦊 Leicester City: <strong>0.62</strong></p>
                           </div>
                         </div>
                         <div className="bg-background/50 p-4 rounded-lg">
                           <h5 className="font-bold text-football-red mb-3">OTHER TEAMS</h5>
                           <div className="space-y-2 text-muted-foreground">
-                            <p>Liverpool: <strong>0.67</strong> (!)</p>
+                            <p>🔴 Liverpool: <strong>0.67</strong> (!)</p>
                             <p>🔵 Chelsea: <strong>0.72</strong> (!)</p>
                             <p>⚒️ West Ham: <strong>0.78</strong> (!!)</p>
                           </div>
@@ -1335,7 +1338,7 @@ const Index = () => {
                     <div className="bg-football-blue/10 p-8 rounded-xl border border-football-blue/30">
                       <h5 className="text-2xl font-bold text-football-blue mb-6">🚀 Long-Term Changes (2026-2035):</h5>
                       <div className="space-y-4">
-                        <p className="text-lg font-bold text-football-cyan mb-4">A revolution in analysis:</p>
+                        <p className="text-lg font-bold text-football-cyan mb-4">A revolution in football:</p>
                         <div className="space-y-3 text-muted-foreground">
                           <div className="flex items-center gap-3">
                             <span className="text-football-blue">🤖</span>
@@ -1450,7 +1453,7 @@ const Index = () => {
                   
                   <div className="text-center">
                     <blockquote className="text-3xl md:text-4xl font-bold text-football-yellow italic mb-4">
-                      "FOOTBALL IS THE MOST IMPORTANT OF THE LEAST IMPORTANT THINGS"
+                      "FOOTBALL IS THE MOST IMPORTANT OF THE LESS IMPORTANT THINGS IN THE WORLD"
                     </blockquote>
                     <cite className="text-xl text-muted-foreground">- Carlo Ancelotti</cite>
                   </div>
