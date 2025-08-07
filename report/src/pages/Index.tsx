@@ -547,18 +547,14 @@ const Index = () => {
                     The EPL has become a laboratory for the future of football, where money, tactics and 
                     technology have created the most competitive league in the history of the sport. 
                     The transformation from brute force to smart football is not just a trend, but a new reality that will shape the future of the game.
-                  </p>
+                    </p>
                 </div>
-              </CardContent>
-            </Card>
-          </div>
-        </section>
 
-        {/* Dashboard */}
-        <div className="w-full flex justify-center bg-background/50 rounded-xl p-6">
-          <iframe 
-            title="Comprehensive Dashboard" 
-            width="1000" 
+                {/* Dashboard */}
+                <div className="w-full flex justify-center bg-background/50 rounded-xl p-6">
+                  <iframe 
+                    title="Football Dashboard" 
+                    width="1000" 
                     height="600" 
                     src="https://app.powerbi.com/view?r=eyJrIjoiYTVlMDE3NGYtNDM4Ni00NjgxLWJhOWYtMWMyMjU3ODkwNWI1IiwidCI6IjEzOTA3NTcwLWNiZmUtNDY4Mi1iMDQ3LTQ4MDQwMzIxOThmYyIsImMiOjl9&pageName=ReportSection78b96b3a97c605120ee6" 
                     frameBorder="0" 
