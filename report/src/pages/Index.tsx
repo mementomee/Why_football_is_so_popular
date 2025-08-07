@@ -42,7 +42,7 @@ const Index = () => {
             </a>
             
             <a
-              href="https://github.com/mementomee/Data_Analyst_Job_Market_Analysis"
+              href="https://github.com/mementomee/Why_football_is_so_popular"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-3 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 transform hover:scale-105 backdrop-blur-sm border border-white/30 group"
