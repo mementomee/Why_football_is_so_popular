@@ -2,22 +2,23 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
   workflow_dispatch:
 
-# Allow one concurrent deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout repository
+    - name: Checkout
       uses: actions/checkout@v4
     
     - name: Setup Node.js
@@ -26,30 +27,19 @@ jobs:
         node-version: '18'
     
     - name: Install dependencies
-      run: npm install
+      run: cd report && npm install
     
-    - name: Build project
-      run: npm run build
+    - name: Build
+      run: cd report && npm run build
     
-    - name: Upload build artifacts
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+    
+    - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
+        path: './report/dist'
     
-    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
-    permissions:
-      pages: write
-      id-token: write
-    
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    
-    steps:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
