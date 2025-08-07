@@ -1398,7 +1398,18 @@ const Index = () => {
                         <ol className="space-y-3 text-muted-foreground">
                           <li className="flex items-start gap-3">
                             <span className="text-football-yellow font-bold">1.</span>
-                            <span>Explore my <strong>GitHub repository</strong> for the complete code</span>
+                            <span>
+                            Explore my{' '}
+                            <a
+                              href="https://github.com/mementomee/Why_football_is_so_popular"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-football-cyan hover:text-football-blue transition-colors duration-300 font-bold underline decoration-2 underline-offset-4 hover:decoration-football-blue"
+                            > 
+                              GitHub repository
+                            </a>
+                            {' '}for the complete code
+                          </span>
                           </li>
                           <li className="flex items-start gap-3">
                             <span className="text-football-yellow font-bold">2.</span>
