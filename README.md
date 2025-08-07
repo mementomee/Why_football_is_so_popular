@@ -10,14 +10,6 @@ Using 6 years of Premier League data (2014-2020), this research demonstrates tha
 
 ## 🎯 Key Research Findings
 
-### **💡 The Unpredictability Formula**
-Football maintains the optimal balance for human emotional investment:
-- **70.3%** predictable (skill-based outcomes)
-- **29.7%** unpredictable (chaos factor)
-- **Perfect ratio** that prevents both boredom and frustration
-
-### **📊 Statistical Breakthroughs**
-
 | Discovery | Finding | Impact |
 |-----------|---------|---------|
 | **🎲 Chaos vs Logic** | 8.9% gap between xG models and reality | Proves mathematical limits |
@@ -25,11 +17,6 @@ Football maintains the optimal balance for human emotional investment:
 | **⚽ Goal Distribution** | 83% of matches decided by 0-2 goals | Explains maximum drama |
 | **📈 Market Efficiency** | Bookmakers 70.3% accurate vs xG, 61.4% vs reality | Shows prediction ceiling |
 | **🔢 Shot Volume Myth** | Only 50.8% correlation with wins | Debunks common beliefs |
-
-### **🏆 The Leicester Phenomenon**
-- **2015/16 season:** Peak unpredictability (0.73 index)
-- **5000/1 odds** became reality through statistical chaos
-- **Proof of concept:** Even extreme outliers remain possible
 
 ---
 
@@ -150,36 +137,6 @@ python Data_Merger.py
 python Missing_Matches.py
 python Found_Missing_Matches.py
 ```
-
----
-
-## 📈 Research Insights
-
-### **🔍 Betting Market Analysis**
-- **Goals Prediction Accuracy:** 58.68% (reality) vs 60.75% (xG)
-- **Winner Prediction:** 70.3% vs xG models, 61.4% vs reality
-- **Technology Evolution:** 2019/20 breakthrough to 68.95% accuracy
-- **Unpredictable Teams:** Tottenham (52%), Everton (54%)
-- **Predictable Teams:** Man City (67%), Burnley (67%)
-
-### **🏠 Home Advantage Phenomenon**
-- **Goal Advantage:** 1.53 vs 1.18 goals per match (+30%)
-- **Points Advantage:** 1.61 vs 1.15 points per match (+40%)
-- **Seasonal Patterns:** Strongest in February, weakest in August
-- **Underlying Factors:** Crowd support, travel fatigue, referee bias
-
-### **⚽ Goal Scoring Patterns**
-- **Low Scoring Nature:** Average 2.71 goals per match
-- **Tight Margins:** 60% of matches decided by 0-1 goals
-- **Drama Factor:** 83% within 0-2 goal difference
-- **xG Accuracy:** 99% precision over 6,189 total goals
-
-### **🎲 Unpredictability Index**
-- **Average Season:** 0.56 unpredictability
-- **Leicester Season (2015/16):** 0.73 (peak chaos)
-- **Most Predictable:** 2016/17 (post-Leicester normalization)
-- **Formula:** (Actual - Predicted)² across all outcomes
-
 ---
 
 ## 📊 Key Performance Indicators
@@ -197,8 +154,7 @@ python Found_Missing_Matches.py
 ```
 🔮 Bookmaker Accuracy: 61.4% (winners)
 📊 xG Model Accuracy: 70.3% (winners)
-🎲 Upset Rate: 29.7% (chaos factor)
-📈 Goals Market: 58.68% (over/under 2.5)
+📈 Goals Market: 58.68% (over/under)
 ```
 
 ### **🏆 Team Performance**
@@ -257,14 +213,6 @@ python Found_Missing_Matches.py
 
 ## 🎖️ Project Achievements
 
-### **🏆 Research Contributions**
-- ✅ **First comprehensive unpredictability analysis** of Premier League
-- ✅ **Quantified home advantage** across multiple metrics
-- ✅ **Proved xG model accuracy** at scale (6,189 goals)
-- ✅ **Demonstrated betting market evolution** over 6 years
-- ✅ **Created reusable methodology** for sports analytics
-
-### **💻 Technical Accomplishments**
 - ✅ **Complex ETL pipeline** merging heterogeneous data sources
 - ✅ **Interactive web report** with modern React architecture
 - ✅ **20+ custom DAX formulas** for advanced analytics
@@ -375,8 +323,6 @@ If this research helped you understand the beautiful unpredictability of footbal
 
 > *"Football is the most important of the less important things in the world."*  
 > **— Carlo Ancelotti**
-
-**🎯 Proving through data what fans have always known: football's beautiful chaos is its greatest strength.**
 
 ---
 
