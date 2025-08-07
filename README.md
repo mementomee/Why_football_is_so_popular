@@ -1,6 +1,6 @@
 # ⚽ Why Football is So Popular: A Statistical Analysis
 
-> **🌐 [Live Interactive Report](https://mementomee.github.io/Why_football_is_so_popular/)** | **📊 [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTVlMDE3NGYtNDM4Ni00NjgxLWJhOWYtMWMyMjU3ODkwNWI1IiwidCI6IjEzOTA3NTcwLWNiZmUtNDY4Mi1iMDQ3LTQ4MDQwMzIxOThmYyIsImMiOjl9&pageName=ReportSection78b96b3a97c605120ee6)**
+> **🌐 [Live Interactive Report](https://mementomee.github.io/Why_football_is_so_popular/)** | **📊 [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTVlMDE3NGYtNDM4Ni00NjgxLWJhOWYtMWMyMjU3ODkwNWI1IiwidCI6IjEzOTA3NTcwLWNiZmUtNDY4Mi1iMDQ3LTQ4MDQwMzIxOThmYyIsImMiOjl9&pageName=047d9bb1d92bc8920b26)**
 
 **Comprehensive statistical analysis proving why football is the world's most popular sport through its inherent unpredictability**
 
