@@ -11,6 +11,7 @@ This folder contains Python scripts for processing, cleaning, and integrating fo
 ### **Input Sources:**
 - **Betting Odds:** Multiple CSV files with bookmaker data (2014-2020)
 - **Understat Data:** Expected Goals (xG) and performance metrics
+- **Match Results:** Premier League fixtures and outcomes
 
 ### **Output:**
 - **integrated_football_analytics_dataset.csv** - Unified dataset (2,820 matches)
@@ -20,8 +21,10 @@ This folder contains Python scripts for processing, cleaning, and integrating fo
 ### **Processing Flow:**
 ```
 Betting Odds CSVs → Data_Merger.py → Integrated Dataset
-                         ↑
-Understat CSV    → Found_Missing_Matches.py → Gap Analysis
+                         ↓
+                  Missing_Matches.py → Gap Analysis & Templates
+                         ↓
+Understat CSV → Found_Missing_Matches.py → Automated Recovery
 ```
 
 ---
@@ -31,7 +34,8 @@ Understat CSV    → Found_Missing_Matches.py → Gap Analysis
 ```
 Python/
 ├── Data_Merger.py              # Main ETL pipeline
-├── Found_Missing_Matches.py    # Missing data identification
+├── Missing_Matches.py          # Missing xG data identification
+├── Found_Missing_Matches.py    # Missing data search and recovery
 ├── README.md                   # This documentation
 └── config/                     # Configuration files (if any)
 ```
@@ -109,9 +113,71 @@ result = merger.merge_all_data(
 
 ---
 
-### **2. Found_Missing_Matches.py** - Data Gap Analysis
+### **2. Missing_Matches.py** - Missing xG Data Identification
 
-**Purpose:** Identifies and helps collect missing matches from Understat dataset.
+**Purpose:** Identifies matches in the integrated dataset that are missing xG data and creates templates for manual data collection.
+
+#### **Key Features:**
+- **Missing xG detection** (where xG1 = 0.0)
+- **Data completeness analysis** with statistics
+- **Manual collection templates** generation
+- **Missing data patterns** identification
+
+#### **Class: MissingMatchAnalyzer**
+
+```python
+class MissingMatchAnalyzer:
+    """
+    Tool for identifying and managing missing xG data in integrated dataset.
+    """
+```
+
+#### **Main Methods:**
+
+**`load_integrated_data(integrated_file_path)`**
+- Loads the final integrated dataset
+- Validates file existence and structure
+- Returns integrated DataFrame with all matches
+
+**`find_missing_xg_matches(integrated_data)`**
+- Identifies matches where xG data is missing (xG1 = 0.0)
+- Calculates missing data statistics and rates
+- Returns DataFrame with only missing data matches
+
+**`create_manual_collection_template(missing_matches, output_path)`**
+- Creates CSV template for manual xG data collection
+- Includes match details (date, teams, result)
+- Provides structured format for data entry
+
+**`analyze_missing_patterns(missing_matches)`**
+- Analyzes patterns in missing data distribution
+- Identifies which teams/seasons have most gaps
+- Provides insights for targeted data collection
+
+#### **Usage Example:**
+
+```python
+# Initialize analyzer
+analyzer = MissingMatchAnalyzer()
+
+# Load integrated dataset
+data = analyzer.load_integrated_data('../integrated_dataset.csv')
+
+# Find missing xG matches
+missing = analyzer.find_missing_xg_matches(data)
+
+# Create collection template
+analyzer.create_manual_collection_template(
+    missing, 
+    '../missing_data_collection/manual_template.csv'
+)
+```
+
+---
+
+### **3. Found_Missing_Matches.py** - Missing Data Search and Recovery
+
+**Purpose:** Searches for missing matches in the original Understat dataset and attempts automated recovery.
 
 #### **Key Features:**
 - **Missing data identification** in merged dataset
@@ -278,6 +344,12 @@ config = {
     'output_file': r"C:\Path\To\integrated_dataset.csv"
 }
 
+# Missing_Matches.py configuration
+config = {
+    'integrated_file': r"C:\Path\To\integrated_dataset.csv",
+    'output_folder': r"C:\Path\To\missing_data_collection"
+}
+
 # Found_Missing_Matches.py configuration  
 config = {
     'template_file': r"C:\Path\To\missing_template.csv",
@@ -292,7 +364,10 @@ config = {
 # Run main ETL pipeline
 python Data_Merger.py
 
-# Analyze missing data
+# Identify missing xG data
+python Missing_Matches.py
+
+# Search for missing data in original source
 python Found_Missing_Matches.py
 ```
 
@@ -399,33 +474,34 @@ for chunk in pd.read_csv(file, chunksize=chunk_size):
 
 ## 🔄 Data Pipeline Workflow
 
-### **Step 1: Data Ingestion**
+### **Step 1: Data Integration (Data_Merger.py)**
 1. Load all CSV files from odds folder
 2. Read Understat performance data
 3. Validate file formats and structures
+4. Merge datasets and create integrated output
 
-### **Step 2: Data Cleaning**
+### **Step 2: Missing Data Analysis (Missing_Matches.py)**
+1. Load integrated dataset from Step 1
+2. Identify matches missing xG data (xG1 = 0.0)
+3. Generate missing data statistics and patterns
+4. Create manual collection templates
+
+### **Step 3: Automated Recovery (Found_Missing_Matches.py)**
+1. Use templates from Step 2
+2. Search original Understat dataset for missing matches
+3. Apply fuzzy matching algorithms for team names
+4. Generate recovery reports with confidence scores
+
+### **Step 4: Data Cleaning**
 1. Standardize team names across sources
 2. Normalize date formats
 3. Handle missing values and outliers
 4. Validate data ranges and relationships
 
-### **Step 3: Data Integration**
-1. Create lookup indexes for efficient matching
-2. Merge datasets based on date and teams
-3. Calculate derived metrics and features
-4. Validate integration success rates
-
-### **Step 4: Quality Assurance**
+### **Step 5: Quality Assurance**
 1. Generate comprehensive coverage reports
 2. Identify and flag data quality issues
-3. Create templates for missing data collection
-4. Validate final dataset integrity
-
-### **Step 5: Output Generation**
-1. Export integrated dataset to CSV
-2. Generate processing reports and logs
-3. Create data dictionaries and metadata
+3. Validate final dataset integrity
 4. Prepare data for Power BI consumption
 
 ---
