@@ -29,7 +29,7 @@ const Index = () => {
           {/* GitHub Repository Link */}
           <div className="flex flex-col items-center gap-4 mb-16">
             <a
-              href="https://app.powerbi.com/view?r=eyJrIjoiYTVlMDE3NGYtNDM4Ni00NjgxLWJhOWYtMWMyMjU3ODkwNWI1IiwidCI6IjEzOTA3NTcwLWNiZmUtNDY4Mi1iMDQ3LTQ4MDQwMzIxOThmYyIsImMiOjl9&pageName=ReportSection78b96b3a97c605120ee6"
+              href="https://app.powerbi.com/view?r=eyJrIjoiYTVlMDE3NGYtNDM4Ni00NjgxLWJhOWYtMWMyMjU3ODkwNWI1IiwidCI6IjEzOTA3NTcwLWNiZmUtNDY4Mi1iMDQ3LTQ4MDQwMzIxOThmYyIsImMiOjl9&pageName=047d9bb1d92bc8920b26"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-3 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 transform hover:scale-105 backdrop-blur-sm border border-white/30 group"
@@ -563,7 +563,7 @@ const Index = () => {
                     title="Football Dashboard" 
                     width="1000" 
                     height="600" 
-                    src="https://app.powerbi.com/view?r=eyJrIjoiYTVlMDE3NGYtNDM4Ni00NjgxLWJhOWYtMWMyMjU3ODkwNWI1IiwidCI6IjEzOTA3NTcwLWNiZmUtNDY4Mi1iMDQ3LTQ4MDQwMzIxOThmYyIsImMiOjl9&pageName=ReportSection78b96b3a97c605120ee6" 
+                    src="https://app.powerbi.com/view?r=eyJrIjoiYTVlMDE3NGYtNDM4Ni00NjgxLWJhOWYtMWMyMjU3ODkwNWI1IiwidCI6IjEzOTA3NTcwLWNiZmUtNDY4Mi1iMDQ3LTQ4MDQwMzIxOThmYyIsImMiOjl9&pageName=047d9bb1d92bc8920b26" 
                     frameBorder="0" 
                     allowFullScreen
                     className="rounded-lg shadow-card border border-border max-w-full"
