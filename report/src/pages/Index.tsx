@@ -4,27 +4,25 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
 const Index = () => {
-  const scrollToSection = (id) => {
+  const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  return (
+   return (
     <div className="min-h-screen bg-background font-inter">
       {/* Hero Section */}
       <header className="relative min-h-screen flex flex-col justify-center items-center bg-gradient-dark">
         <div className="container mx-auto px-6 text-center">
           {/* Main Title with 3D Effect */}
           <h1 
-            className="text-6xl md:text-8xl lg:text-9xl font-black tracking-wider text-primary mb-6"
-            style={{ 
-              textShadow: '4px 4px 8px rgba(0,0,0,0.3), 2px 2px 4px rgba(0,0,0,0.2)' 
-            }}
+            className="text-[8rem] md:text-[12rem] lg:text-[16rem] font-black tracking-wider text-primary mb-6"
+            style={{ textShadow: 'var(--text-shadow-3d)' }}
           >
             FOOTBALL
           </h1>
           
           {/* Subtitle */}
-          <p className="text-2xl md:text-3xl lg:text-4xl text-yellow-400 font-semibold mb-12 max-w-4xl mx-auto leading-tight">
+          <p className="text-2xl md:text-3xl lg:text-4xl text-football-yellow font-semibold mb-12 max-w-4xl mx-auto leading-tight">
             Why it is so popular and interesting from a statistical perspective
           </p>
           
@@ -37,8 +35,8 @@ const Index = () => {
               className="inline-flex items-center gap-3 px-6 py-3 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 transform hover:scale-105 backdrop-blur-sm border border-white/30 group"
             >
               <span className="animate-pulse">📊</span>
-              <span className="text-white font-medium group-hover:text-cyan-400 transition-colors">Interactive Power BI Dashboard</span>
-              <svg className="w-4 h-4 text-white group-hover:text-cyan-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <span className="text-white font-medium group-hover:text-football-cyan transition-colors">Interactive Power BI Dashboard</span>
+              <svg className="w-4 h-4 text-white group-hover:text-football-cyan transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
             </a>
@@ -52,93 +50,90 @@ const Index = () => {
               <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
               </svg>
-              <span className="text-sm font-medium text-white group-hover:text-cyan-400 transition-colors">View Source Code</span>
-              <svg className="w-4 h-4 text-white group-hover:text-cyan-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <span className="text-sm font-medium text-white group-hover:text-football-cyan transition-colors">View Source Code</span>
+              <svg className="w-4 h-4 text-white group-hover:text-football-cyan transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
             </a>
           </div>
           
           {/* Plan Section */}
-          <div className="bg-black/20 backdrop-blur-sm rounded-3xl p-8 md:p-12 border border-white/20">
+          <div className="bg-card/30 backdrop-blur-sm rounded-3xl p-8 md:p-12 border border-border/30">
             <h2 
               className="text-4xl md:text-6xl font-black text-primary mb-12 tracking-wider"
-              style={{ 
-                textShadow: '4px 4px 8px rgba(0,0,0,0.3), 2px 2px 4px rgba(0,0,0,0.2)' 
-              }}
+              style={{ textShadow: 'var(--text-shadow-3d)' }}
             >
               DISCUSSION PLAN
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-7xl mx-auto">
               <div className="flex items-center gap-4 group cursor-pointer" onClick={() => scrollToSection('intro')}>
-                <div className="w-12 h-12 rounded-full bg-cyan-400 flex items-center justify-center text-lg font-bold text-black group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-full bg-football-cyan flex items-center justify-center text-lg font-bold text-background group-hover:scale-110 transition-transform">
                   1
                 </div>
-                <span className="text-lg md:text-xl text-white font-medium group-hover:text-cyan-400 transition-colors">
+                <span className="text-lg md:text-xl text-foreground font-medium group-hover:text-football-cyan transition-colors">
                   Introduction. Why Football?
                 </span>
               </div>
               
               <div className="flex items-center gap-4 group cursor-pointer" onClick={() => scrollToSection('goal-analysis')}>
-                <div className="w-12 h-12 rounded-full bg-red-500 flex items-center justify-center text-lg font-bold text-white group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-full bg-football-red flex items-center justify-center text-lg font-bold text-background group-hover:scale-110 transition-transform">
                   2
                 </div>
-                <span className="text-lg md:text-xl text-white font-medium group-hover:text-red-500 transition-colors">
+                <span className="text-lg md:text-xl text-foreground font-medium group-hover:text-football-red transition-colors">
                   Goal Performance
                 </span>
               </div>
               
               <div className="flex items-center gap-4 group cursor-pointer" onClick={() => scrollToSection('team-metrics')}>
-                <div className="w-12 h-12 rounded-full bg-purple-500 flex items-center justify-center text-lg font-bold text-white group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-full bg-football-purple flex items-center justify-center text-lg font-bold text-background group-hover:scale-110 transition-transform">
                   3
                 </div>
-                <span className="text-lg md:text-xl text-white font-medium group-hover:text-purple-500 transition-colors">
+                <span className="text-lg md:text-xl text-foreground font-medium group-hover:text-football-purple transition-colors">
                   Team metrics
                 </span>
               </div>
               
               <div className="flex items-center gap-4 group cursor-pointer" onClick={() => scrollToSection('betting-analysis')}>
-                <div className="w-12 h-12 rounded-full bg-yellow-400 flex items-center justify-center text-lg font-bold text-black group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-full bg-football-yellow flex items-center justify-center text-lg font-bold text-background group-hover:scale-110 transition-transform">
                   4
                 </div>
-                <span className="text-lg md:text-xl text-white font-medium group-hover:text-yellow-400 transition-colors">
+                <span className="text-lg md:text-xl text-foreground font-medium group-hover:text-football-yellow transition-colors">
                   Efficiency of bookmakers
                 </span>
               </div>
               
               <div className="flex items-center gap-4 group cursor-pointer" onClick={() => scrollToSection('correlation')}>
-                <div className="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center text-lg font-bold text-white group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-full bg-football-green flex items-center justify-center text-lg font-bold text-background group-hover:scale-110 transition-transform">
                   5
                 </div>
-                <span className="text-lg md:text-xl text-white font-medium group-hover:text-green-500 transition-colors">
+                <span className="text-lg md:text-xl text-foreground font-medium group-hover:text-football-green transition-colors">
                   Correlation with Win
                 </span>
               </div>
               
               <div className="flex items-center gap-4 group cursor-pointer" onClick={() => scrollToSection('unpredictability')}>
-                <div className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center text-lg font-bold text-white group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-full bg-football-blue flex items-center justify-center text-lg font-bold text-background group-hover:scale-110 transition-transform">
                   6
                 </div>
-                <span className="text-lg md:text-xl text-white font-medium group-hover:text-blue-500 transition-colors">
+                <span className="text-lg md:text-xl text-foreground font-medium group-hover:text-football-blue transition-colors">
                   Unpredictability Index
                 </span>
               </div>
               
               <div className="flex items-center gap-4 group cursor-pointer" onClick={() => scrollToSection('goal-difference')}>
-                <div className="w-12 h-12 rounded-full bg-orange-500 flex items-center justify-center text-lg font-bold text-white group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-full bg-football-orange flex items-center justify-center text-lg font-bold text-background group-hover:scale-110 transition-transform">
                   7
                 </div>
-                <span className="text-lg md:text-xl text-white font-medium group-hover:text-orange-500 transition-colors">
-                  Goal Difference
+                <span className="text-lg md:text-xl text-foreground font-medium group-hover:text-football-orange transition-colors">
+                Goal Difference
                 </span>
               </div>
-
               <div className="flex items-center gap-4 group cursor-pointer" onClick={() => scrollToSection('conclusion')}>
-                <div className="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 flex items-center justify-center text-lg font-bold text-white group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-r from-football-cyan to-football-blue flex items-center justify-center text-lg font-bold text-background group-hover:scale-110 transition-transform">
                   8
                 </div>
-                <span className="text-lg md:text-xl text-white font-medium group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-cyan-400 group-hover:to-blue-500 group-hover:bg-clip-text transition-all">
+                <span className="text-lg md:text-xl text-foreground font-medium group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-football-cyan group-hover:to-football-blue group-hover:bg-clip-text transition-all">
                   Conclusion
                 </span>
               </div>
@@ -146,86 +141,83 @@ const Index = () => {
           </div>
         </div>
       </header>
-      
-      {/* Content Sections */}
+        {/* Content Sections */}
       <main className="relative z-10">
         {/* Introduction Section */}
-        <section id="intro" className="py-20 bg-gradient-to-b from-gray-900 to-black">
+        <section id="intro" className="py-20 bg-gradient-card">
           <div className="container mx-auto px-6">
-            <Card className="bg-black/50 backdrop-blur-sm border-white/20 shadow-2xl">
+            <Card className="bg-card/80 backdrop-blur-sm border-border/50 shadow-card">
               <CardHeader className="text-center pb-8">
                 <CardTitle 
-                  className="text-5xl md:text-7xl font-black text-white mb-6 tracking-wider"
-                  style={{ 
-                    textShadow: '4px 4px 8px rgba(0,0,0,0.3), 2px 2px 4px rgba(0,0,0,0.2)' 
-                  }}
+                  className="text-5xl md:text-7xl font-black text-primary mb-6 tracking-wider"
+                  style={{ textShadow: 'var(--text-shadow-3d)' }}
                 >
                   INTRODUCTION. WHY FOOTBALL?
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-8">
                 <div className="mb-8 text-center">
-                  <p className="text-2xl font-bold text-cyan-400 mb-4">
+                  <p className="text-2xl font-bold text-football-cyan mb-4">
                     The numbers speak for themselves: 4.046 billion fans worldwide.
                   </p>
-                  <p className="text-lg text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                  <p className="text-lg text-muted-foreground leading-relaxed max-w-4xl mx-auto">
                     Football is not just the most popular sport on the planet - it outsells its closest competitor (cricket) by almost double! But what lies behind these staggering numbers?
                   </p>
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                   <div className="space-y-6">
-                    <h3 className="text-2xl font-bold text-cyan-400 mb-6">🌍 A global phenomenon</h3>
-                    <p className="text-lg text-gray-300 leading-relaxed">
+                    <h3 className="text-2xl font-bold text-football-cyan mb-6">🌍 A global phenomenon</h3>
+                    <p className="text-lg text-muted-foreground leading-relaxed">
                       Between 1930 and 2020, football has gathered an audience that exceeds the population of the entire Asia. This is not just a statistic - it is evidence of a unique cultural phenomenon that unites continents, languages and generations.
                     </p>
                     
-                    <h4 className="text-xl font-bold text-yellow-400 mt-8 mb-4">🎯 Reasons for unprecedented popularity:</h4>
+                    <h4 className="text-xl font-bold text-football-yellow mt-8 mb-4">🎯 Reasons for unprecedented popularity:</h4>
                     <div className="space-y-4">
-                      <div className="flex items-start gap-4 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors">
+                      <div className="flex items-start gap-4 p-4 bg-muted/30 rounded-lg hover:bg-muted/50 transition-colors">
                         <span className="text-2xl mt-1">🎯</span>
                         <div>
-                          <h5 className="font-bold text-white mb-2">Universal simplicity</h5>
-                          <p className="text-gray-300">Football is the only sport among the top 10 that requires only a ball. There is no expensive equipment, complicated rules, or special grounds. This explains its spread from the favelas of Brazil to the streets of London.</p>
+                          <h5 className="font-bold text-foreground mb-2">Universal simplicity</h5>
+                          <p className="text-muted-foreground">Football is the only sport among the top 10 that requires only a ball. There is no expensive equipment, complicated rules, or special grounds. This explains its spread from the favelas of Brazil to the streets of London.</p>
                         </div>
                       </div>
-                      <div className="flex items-start gap-4 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors">
+                      <div className="flex items-start gap-4 p-4 bg-muted/30 rounded-lg hover:bg-muted/50 transition-colors">
                         <span className="text-2xl mt-1">🌍</span>
                         <div>
-                          <h5 className="font-bold text-white mb-2">Global unification</h5>
-                          <p className="text-gray-300">When 2.5 billion people watch the World Cup final at the same time, football becomes a language that does not require translation. It breaks down barriers between cultures, classes and countries.</p>
+                          <h5 className="font-bold text-foreground mb-2">Global unification</h5>
+                          <p className="text-muted-foreground">When 2.5 billion people watch the World Cup final at the same time, football becomes a language that does not require translation. It breaks down barriers between cultures, classes and countries.</p>
                         </div>
                       </div>
-                      <div className="flex items-start gap-4 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors">
+                      <div className="flex items-start gap-4 p-4 bg-muted/30 rounded-lg hover:bg-muted/50 transition-colors">
                         <span className="text-2xl mt-1">🧠</span>
                         <div>
-                          <h5 className="font-bold text-white mb-2">Multidimensional experience</h5>
-                          <p className="text-gray-300">Football uniquely combines philosophy (from Cruyff's "total football" to Guardiola's "tiki-taka"), tactics (a live chessboard), business ($700+ billion industry), medicine, and technology.</p>
+                          <h5 className="font-bold text-foreground mb-2">Multidimensional experience</h5>
+                          <p className="text-muted-foreground">Football uniquely combines philosophy (from Cruyff's "total football" to Guardiola's "tiki-taka"), tactics (a live chessboard), business ($700+ billion industry), medicine, and technology.</p>
                         </div>
                       </div>
-                      <div className="flex items-start gap-4 p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors">
+                      <div className="flex items-start gap-4 p-4 bg-muted/30 rounded-lg hover:bg-muted/50 transition-colors">
                         <span className="text-2xl mt-1">📺</span>
                         <div>
-                          <h5 className="font-bold text-white mb-2">Perfect entertainment product</h5>
-                          <p className="text-gray-300">90 minutes of drama where every minute can change the outcome. Unlike high-performance sports, every goal in football is an event that causes an emotional explosion in millions of viewers.</p>
+                          <h5 className="font-bold text-foreground mb-2">Perfect entertainment product</h5>
+                          <p className="text-muted-foreground">90 minutes of drama where every minute can change the outcome. Unlike high-performance sports, every goal in football is an event that causes an emotional explosion in millions of viewers.</p>
                         </div>
                       </div>
                     </div>
                   </div>
                   
                   <div className="space-y-6">
-                    <h3 className="text-2xl font-bold text-red-500 mb-4">📊 WHAT IS FOOTBALL STATISTICS?</h3>
-                    <div className="bg-gradient-to-br from-red-500/10 to-purple-500/10 p-6 rounded-xl border border-red-500/20">
-                      <p className="text-lg font-semibold text-red-400 mb-4 italic">
+                    <h3 className="text-2xl font-bold text-football-red mb-4">📊 WHAT IS FOOTBALL STATISTICS?</h3>
+                    <div className="bg-gradient-to-br from-football-red/10 to-football-purple/10 p-6 rounded-xl border border-football-red/20">
+                      <p className="text-lg font-semibold text-football-red mb-4 italic">
                         "Football statistics is an attempt by mathematics to explain poetry."
                       </p>
-                      <p className="text-gray-300">
+                      <p className="text-muted-foreground">
                         While numbers will never tell the whole story of a match, they can shed light on what actually happened on the field.
                       </p>
                     </div>
                     
-                    <div className="space-y-4 text-gray-300">
-                      <blockquote className="border-l-4 border-cyan-400 pl-4 italic text-lg">
+                    <div className="space-y-4 text-muted-foreground">
+                      <blockquote className="border-l-4 border-football-cyan pl-4 italic text-lg">
                         "There are so many variables in football, and it's simply impossible to explain everything through numbers. But you can explain the context with data and draw qualitative conclusions based on it."
                       </blockquote>
                       
@@ -238,14 +230,14 @@ const Index = () => {
                       </p>
                       
                       <div className="mt-8">
-                        <h4 className="text-lg font-bold text-green-500 mb-4">Key Football Metrics:</h4>
+                        <h4 className="text-lg font-bold text-football-green mb-4">Key Football Metrics:</h4>
                         <div className="flex flex-wrap gap-3">
-                          <Badge className="bg-cyan-400/20 text-cyan-400 border-cyan-400/30 px-4 py-2">xG</Badge>
-                          <Badge className="bg-red-500/20 text-red-400 border-red-500/30 px-4 py-2">xA</Badge>
-                          <Badge className="bg-purple-500/20 text-purple-400 border-purple-500/30 px-4 py-2">XPTS</Badge>
-                          <Badge className="bg-yellow-400/20 text-yellow-400 border-yellow-400/30 px-4 py-2">PPD</Badge>
-                          <Badge className="bg-green-500/20 text-green-400 border-green-500/30 px-4 py-2">Shots</Badge>
-                          <Badge className="bg-blue-500/20 text-blue-400 border-blue-500/30 px-4 py-2">Possession</Badge>
+                          <Badge className="bg-football-cyan/20 text-football-cyan border-football-cyan/30 px-4 py-2">xG</Badge>
+                          <Badge className="bg-football-red/20 text-football-red border-football-red/30 px-4 py-2">xA</Badge>
+                          <Badge className="bg-football-purple/20 text-football-purple border-football-purple/30 px-4 py-2">XPTS</Badge>
+                          <Badge className="bg-football-yellow/20 text-football-yellow border-football-yellow/30 px-4 py-2">PPD</Badge>
+                          <Badge className="bg-football-green/20 text-football-green border-football-green/30 px-4 py-2">Shots</Badge>
+                          <Badge className="bg-football-blue/20 text-football-blue border-football-blue/30 px-4 py-2">Possession</Badge>
                         </div>
                       </div>
                     </div>
@@ -253,9 +245,9 @@ const Index = () => {
                 </div>
                 
                 <div className="mt-12 text-center">
-                  <div className="bg-gradient-to-r from-cyan-400/20 to-blue-500/20 p-6 rounded-xl border border-cyan-400/30">
-                    <p className="text-xl font-bold text-cyan-400 mb-2">Statistical confirmation of the phenomenon</p>
-                    <p className="text-gray-300">
+                  <div className="bg-gradient-to-r from-football-cyan/20 to-football-blue/20 p-6 rounded-xl border border-football-cyan/30">
+                    <p className="text-xl font-bold text-football-cyan mb-2">Statistical confirmation of the phenomenon</p>
+                    <p className="text-muted-foreground">
                       Why is it that football has gathered 4 billion fans, not cricket or hockey? The answer lies in its unique unpredictability - the very quality that we will analyze in this study using 6 seasons of the Premier League as an example.
                     </p>
                   </div>
