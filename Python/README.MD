@@ -11,7 +11,6 @@ This folder contains Python scripts for processing, cleaning, and integrating fo
 ### **Input Sources:**
 - **Betting Odds:** Multiple CSV files with bookmaker data (2014-2020)
 - **Understat Data:** Expected Goals (xG) and performance metrics
-- **Match Results:** Premier League fixtures and outcomes
 
 ### **Output:**
 - **integrated_football_analytics_dataset.csv** - Unified dataset (2,820 matches)
