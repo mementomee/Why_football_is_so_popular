@@ -1275,7 +1275,7 @@ const Index = () => {
                   className="text-4xl md:text-6xl font-black text-primary mb-6 tracking-wider"
                   style={{ textShadow: 'var(--text-shadow-3d)' }}
                 >
-                  💡 ВИСНОВОК
+                  💡 CONCLUSION
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-12">
@@ -1283,105 +1283,105 @@ const Index = () => {
                 <div className="text-center mb-12">
                   <div className="bg-gradient-to-r from-football-cyan/20 to-football-blue/20 p-8 rounded-2xl border border-football-cyan/30 max-w-5xl mx-auto">
                     <p className="text-2xl font-bold text-primary mb-4">
-                      Футбол - єдиний вид спорту, де <strong className="text-football-cyan">83%</strong> матчів вирішуються найменшою різницею. 
-                      Це робить кожен матч потенційною драмою!
+                      Football is the only sport where <strong className="text-football-cyan">83%</strong> of matches are decided by a minimal difference. 
+                      This makes every match a potential drama!
                     </p>
                     <p className="text-lg text-muted-foreground leading-relaxed">
-                      Наше дослідження 2,820 матчів Прем'єр-ліги розкрило математичну формулу того, 
-                      чому 4 мільярди людей не можуть відірватися від екранів кожні вихідні.
+                      Our study of 2,820 Premier League matches uncovered the mathematical formula behind why 
+                      4 billion people can't tear themselves away from their screens every weekend.
                     </p>
                   </div>
                 </div>
 
                 {/* Main Discovery */}
                 <div className="mb-12">
-                  <h4 className="text-3xl font-bold text-primary mb-8 text-center">🎯 Головне відкриття: Анатомія футбольної магії</h4>
-                  
+                  <h4 className="text-3xl font-bold text-primary mb-8 text-center">🎯 Main Discovery: The Anatomy of Football Magic</h4>
+
                   <div className="bg-football-purple/10 p-8 rounded-xl border border-football-purple/30 mb-8">
-                    <h5 className="text-2xl font-bold text-football-purple mb-6">🔢 Математика непередбачуваності:</h5>
+                    <h5 className="text-2xl font-bold text-football-purple mb-6">🔢 The Mathematics of Unpredictability:</h5>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div className="space-y-4">
                         <div className="flex items-center gap-3">
                           <span className="text-green-400 text-xl">✅</span>
-                          <span className="text-lg">83% матчів вирішуються мінімальною різницею</span>
+                          <span className="text-lg">83% of matches are decided by a minimal difference</span>
                         </div>
                         <div className="flex items-center gap-3">
                           <span className="text-green-400 text-xl">✅</span>
-                          <span className="text-lg">60% результатів неможливо передбачити точно</span>
+                          <span className="text-lg">60% of results cannot be predicted</span>
                         </div>
                       </div>
                       <div className="space-y-4">
                         <div className="flex items-center gap-3">
                           <span className="text-green-400 text-xl">✅</span>
-                          <span className="text-lg">1 гол може змінити долю сезону</span>
+                          <span className="text-lg">1 goal can change the fate of a season</span>
                         </div>
                         <div className="flex items-center gap-3">
                           <span className="text-green-400 text-xl">✅</span>
-                          <span className="text-lg">Кожні 90 хвилин - потенційна драма</span>
+                          <span className="text-lg">Every 90 minutes - a potential drama</span>
                         </div>
                       </div>
                     </div>
                     <p className="text-xl font-bold text-football-purple mt-6 text-center">
-                      Саме це поєднання малих цифр і великих емоцій робить футбол унікальним серед усіх видів спорту.
+                      This combination of small numbers and big emotions is what makes football unique among all sports.
                     </p>
                   </div>
                 </div>
 
                 {/* Future Predictions */}
                 <div className="mb-12">
-                  <h4 className="text-3xl font-bold text-primary mb-8 text-center">🔮 Прогнози: майбутнє футбольної аналітики</h4>
-                  
+                  <h4 className="text-3xl font-bold text-primary mb-8 text-center">🔮 Future Predictions: The Future of Football Analytics</h4>
+
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className="bg-football-blue/10 p-8 rounded-xl border border-football-blue/30">
-                      <h5 className="text-2xl font-bold text-football-blue mb-6">🚀 Довгострокові зміни (2026-2035):</h5>
+                      <h5 className="text-2xl font-bold text-football-blue mb-6">🚀 Long-Term Changes (2026-2035):</h5>
                       <div className="space-y-4">
-                        <p className="text-lg font-bold text-football-cyan mb-4">Революція в аналізі:</p>
+                        <p className="text-lg font-bold text-football-cyan mb-4">A revolution in analysis:</p>
                         <div className="space-y-3 text-muted-foreground">
                           <div className="flex items-center gap-3">
                             <span className="text-football-blue">🤖</span>
-                            <span>AI-арбітри для офсайдів (99.9% точності)</span>
+                            <span>AI referees for offside (99.9% accuracy)</span>
                           </div>
                           <div className="flex items-center gap-3">
                             <span className="text-football-blue">🏃‍♂️</span>
-                            <span>Біометричний моніторинг всіх гравців</span>
+                            <span>Biometric monitoring of all players</span>
                           </div>
                           <div className="flex items-center gap-3">
                             <span className="text-football-blue">🧠</span>
-                            <span>Нейромережі передбачатимуть тактичні рішення</span>
+                            <span>Neural networks will predict tactical decisions</span>
                           </div>
                           <div className="flex items-center gap-3">
                             <span className="text-football-blue">👁️</span>
-                            <span>Комп'ютерний зір для автоматичного розрахунку всіх метрик</span>
+                            <span>Computer vision for automatic calculation of all metrics</span>
                           </div>
                           <div className="flex items-center gap-3">
                             <span className="text-football-blue">🥽</span>
-                            <span>VR-тренування на основі big data суперників</span>
+                            <span>VR training based on opponents' big data</span>
                           </div>
                           <div className="flex items-center gap-3">
                             <span className="text-football-blue">🔮</span>
-                            <span>Предиктивні моделі травм з точністю 85%+</span>
+                            <span>Predictive injury models with 85%+ accuracy</span>
                           </div>
                         </div>
                       </div>
                     </div>
                     
                     <div className="bg-football-green/10 p-8 rounded-xl border border-football-green/30">
-                      <h5 className="text-2xl font-bold text-football-green mb-6">🎭 Культурний феномен:</h5>
+                      <h5 className="text-2xl font-bold text-football-green mb-6">🎭 Cultural Phenomenon:</h5>
                       <p className="text-lg text-muted-foreground mb-4">
-                        Футбол став універсальною мовою емоцій, і наше дослідження пояснює чому:
+                        Football has become a universal language of emotions, and our research explains why:
                       </p>
                       <div className="space-y-3 text-muted-foreground">
                         <div className="flex items-start gap-3">
                           <span className="text-football-green mt-1">•</span>
-                          <span>Низька результативність = висока цінність кожної події</span>
+                          <span>Low scoring = high value of each event</span>
                         </div>
                         <div className="flex items-start gap-3">
                           <span className="text-football-green mt-1">•</span>
-                          <span>Непередбачуваність = постійна напруга</span>
+                          <span>Unpredictability = constant tension</span>
                         </div>
                         <div className="flex items-start gap-3">
                           <span className="text-football-green mt-1">•</span>
-                          <span>Глобальність = спільні переживання мільярдів людей</span>
+                          <span>Globalization = shared experiences of billions</span>
                         </div>
                       </div>
                     </div>
@@ -1390,46 +1390,46 @@ const Index = () => {
 
                 {/* Call to Action */}
                 <div className="mb-12">
-                  <h4 className="text-3xl font-bold text-primary mb-8 text-center">📞 Call-to-Action: Приєднуйтесь до революції</h4>
-                  
+                  <h4 className="text-3xl font-bold text-primary mb-8 text-center">📞 Call-to-Action: Join the Revolution</h4>
+
                   <div className="bg-gradient-to-r from-football-yellow/10 to-football-orange/10 p-8 rounded-xl border border-football-yellow/30">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                       <div>
-                        <h5 className="text-xl font-bold text-football-yellow mb-4">Наступні кроки:</h5>
+                        <h5 className="text-xl font-bold text-football-yellow mb-4">Next Steps:</h5>
                         <ol className="space-y-3 text-muted-foreground">
                           <li className="flex items-start gap-3">
                             <span className="text-football-yellow font-bold">1.</span>
-                            <span>Досліджуйте мій <strong>GitHub репозиторій</strong> з повним кодом</span>
+                            <span>Explore my <strong>GitHub repository</strong> for the complete code</span>
                           </li>
                           <li className="flex items-start gap-3">
                             <span className="text-football-yellow font-bold">2.</span>
-                            <span>Повторіть аналіз на інших лігах (Бундесліга, Ла Ліга)</span>
+                            <span>Repeat the analysis on other leagues (Bundesliga, La Liga)</span>
                           </li>
                           <li className="flex items-start gap-3">
                             <span className="text-football-yellow font-bold">3.</span>
-                            <span>Розширте дослідження на інші види спорту</span>
+                            <span>Expand the research to other sports</span>
                           </li>
                           <li className="flex items-start gap-3">
                             <span className="text-football-yellow font-bold">4.</span>
-                            <span>Опублікуйте свої знахідки</span>
+                            <span>Publish your findings</span>
                           </li>
                         </ol>
                       </div>
                       
                       <div>
-                        <h5 className="text-xl font-bold text-football-orange mb-4">Можливості досліджень:</h5>
+                        <h5 className="text-xl font-bold text-football-orange mb-4">Potential Research Directions:</h5>
                         <ul className="space-y-3 text-muted-foreground">
                           <li className="flex items-start gap-3">
                             <span className="text-football-orange">•</span>
-                            <span>Кроскультурний аналіз непередбачуваності спорту</span>
+                            <span>Cultural analysis of sports unpredictability</span>
                           </li>
                           <li className="flex items-start gap-3">
                             <span className="text-football-orange">•</span>
-                            <span>Вплив технологій на точність прогнозів</span>
+                            <span>Impact of technology on prediction accuracy</span>
                           </li>
                           <li className="flex items-start gap-3">
                             <span className="text-football-orange">•</span>
-                            <span>Емоційний вплив непередбачуваності на глядачів</span>
+                            <span>Emotional impact of unpredictability on viewers</span>
                           </li>
                         </ul>
                       </div>
@@ -1440,19 +1440,19 @@ const Index = () => {
                 {/* Final Chord */}
                 <div className="text-center space-y-8">
                   <div className="bg-gradient-to-r from-football-cyan/10 to-football-red/10 p-8 rounded-2xl border border-football-cyan/30">
-                    <h4 className="text-3xl font-bold text-primary mb-6">🎊 Фінальний акорд</h4>
+                    <h4 className="text-3xl font-bold text-primary mb-6">🎊 Final Chord</h4>
                     <p className="text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto mb-6">
-                      Наше дослідження довело: <strong className="text-football-cyan">непередбачуваність - це не баг футболу, це його головна фіча.</strong> 
-                      І поки математики намагаються його приборкати, мільярди фанатів продовжують закохуватися 
-                      в цей прекрасний хаос.
+                      Our research has shown that <strong className="text-football-cyan">unpredictability is not a bug in football, it's a feature.</strong> 
+                      And while mathematicians try to tame it, billions of fans continue to fall in love 
+                      with this beautiful chaos.
                     </p>
                   </div>
                   
                   <div className="text-center">
                     <blockquote className="text-3xl md:text-4xl font-bold text-football-yellow italic mb-4">
-                      "ФУТБОЛ - ЦЕ НАЙВАЖЛИВІША РІЧ ЗІ ВСІХ НАЙМЕНШ ВАЖЛИВИХ"
+                      "FOOTBALL IS THE MOST IMPORTANT OF THE LEAST IMPORTANT THINGS"
                     </blockquote>
-                    <cite className="text-xl text-muted-foreground">- Карло Анчелотті</cite>
+                    <cite className="text-xl text-muted-foreground">- Carlo Ancelotti</cite>
                   </div>
                 </div>
               </CardContent>
@@ -1471,8 +1471,8 @@ const Index = () => {
                 NAZAR PETRASHCHUK
               </h3>
             </div>
-            <p className="text-foreground/90 text-lg mb-1 font-semibold">Data Analyst & Football Analytics Researcher</p>
-            <p className="text-muted-foreground text-sm">Дослідження популярності футболу через призму статистики</p>
+            <p className="text-foreground/90 text-lg mb-1 font-semibold">Data Analyst</p>
+            <p className="text-muted-foreground text-sm">Researching the popularity of football through the prism of statistics</p>
           </div>
 
           {/* Contact Links */}
@@ -1519,7 +1519,7 @@ const Index = () => {
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               className="bg-football-cyan/20 text-football-cyan hover:bg-football-cyan/30 border border-football-cyan/30 px-6 py-2"
             >
-              ↑ Повернутися до початку
+              ↑ Back to top
             </Button>
           </div>
 
