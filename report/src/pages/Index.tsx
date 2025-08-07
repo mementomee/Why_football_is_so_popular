@@ -140,7 +140,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-
+         </header>
         {/* Content Sections */}
       <main className="relative z-10">
         {/* Introduction Section */}
