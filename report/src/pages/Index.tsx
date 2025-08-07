@@ -1543,7 +1543,7 @@ const Index = () => {
           {/* Copyright */}
           <div className="text-center mt-8 pt-6 border-t border-border">
             <p className="text-muted-foreground text-sm">
-              © 2024 Football Analytics Research • Feb 20, 2024
+              © 2025 Football Analytics Research • Aug 07, 2025
             </p>
           </div>
         </div>
