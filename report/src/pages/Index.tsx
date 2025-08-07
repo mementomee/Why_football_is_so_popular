@@ -99,7 +99,7 @@ const Index = () => {
                   4
                 </div>
                 <span className="text-lg md:text-xl text-foreground font-medium group-hover:text-football-yellow transition-colors">
-                  Efficiency of bookmakers
+                Efficiency bookmakers
                 </span>
               </div>
               
