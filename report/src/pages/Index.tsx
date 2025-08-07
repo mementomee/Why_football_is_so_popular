@@ -129,10 +129,17 @@ const Index = () => {
                   Goal Difference
                 </span>
               </div>
+
+              <div className="flex items-center gap-4 group cursor-pointer" onClick={() => scrollToSection('conclusion')}>
+                <div className="w-12 h-12 rounded-full bg-gradient-to-r from-football-cyan to-football-blue flex items-center justify-center text-lg font-bold text-background group-hover:scale-110 transition-transform">
+                  8
+                </div>
+                <span className="text-lg md:text-xl text-foreground font-medium group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-football-cyan group-hover:to-football-blue group-hover:bg-clip-text transition-all">
+                  Conclusion
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-      </header>
 
         {/* Content Sections */}
       <main className="relative z-10">
