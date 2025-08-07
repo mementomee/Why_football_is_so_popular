@@ -23,7 +23,7 @@ const Index = () => {
           
           {/* Subtitle */}
           <p className="text-2xl md:text-3xl lg:text-4xl text-football-yellow font-semibold mb-12 max-w-4xl mx-auto leading-tight">
-            Why it is so popular and interesting from a statistical point of view
+            Why it is so popular and interesting from a statistical perspective
           </p>
           
           {/* GitHub Repository Link */}
@@ -1482,7 +1482,7 @@ const Index = () => {
               </h3>
             </div>
             <p className="text-foreground/90 text-lg mb-1 font-semibold">Data Analyst</p>
-            <p className="text-muted-foreground text-sm">Researching the popularity of football through the prism of statistics</p>
+            <p className="text-muted-foreground text-sm">Research on the popularity of football from a statistical perspective</p>
           </div>
 
           {/* Contact Links */}
